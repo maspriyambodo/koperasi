@@ -1,0 +1,32 @@
+[2018-22-01:02:29:10] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:02:50:45] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:03:02:43] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:04:59:13] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:05:01:55] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:05:24:58] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:07:22:46] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:08:17:35] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:08:50:08] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:09:10:09] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:10:28:03] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:10:49:15] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:11:13:17] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:11:16:41] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-22-01:11:17:00] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-22-01:11:39:31] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+

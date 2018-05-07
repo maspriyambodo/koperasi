@@ -1,0 +1,84 @@
+[2017-10-11:04:25:54] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-10-11:04:29:11] || Action for User : ADMIN Menambah User ANTONKREDIT || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:29:24] || Action for User : ADMIN Menonaktifkan ID User 16 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=16&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:29:36] || Action for User : ADMIN Menonaktifkan ID User 2 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=2&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:30:13] || Action for User : ADMIN Menambah User ANTONTAB || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:30:39] || Action for User : ADMIN Menambah User ANTONTELLER || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:31:05] || Action for User : ADMIN Menambah User ANTONDEP || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:31:37] || Action for User : ADMIN Menambah User ANTONADM || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:32:23] || Action for User : ADMIN Menambah User ANTONPEJABAT || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:33:06] || Action for User : ADMIN Menambah User ANTONAKUN || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:37:50] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:26] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:04:38:32] || Action for User : ADMIN Menonaktifkan ID User 20 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=20&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:35] || Action for User : ADMIN Menonaktifkan ID User 22 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=22&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:39] || Action for User : ADMIN Menonaktifkan ID User 19 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=19&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:47] || Action for User : ADMIN Menonaktifkan ID User 21 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=21&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:49] || Action for User : ADMIN Menonaktifkan ID User 17 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=17&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:38:53] || Action for User : ADMIN Menonaktifkan ID User 18 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/tabelusers.php?id=18&p=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:39:27] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:04:39:49] Action for User : ANTONKRE Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:10:25] || Action for User : ANTONKRE Menambah Data Nasabah 2000ML Oleh ANTONKRE || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/new_nasabah23.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:05:30:42] Action for User : ANTONKRE Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:31:32] Action for User : ANTONAKU Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:35:22] Action for User : ANTONADM Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:36:19] Action for User : ANTONDEP Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:37:31] Action for User : ANTONPEJ Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:39:08] Action for User : ANTONTAB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:39:43] Action for User : ANTONTEL Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:05:59:44] Action for User : ANTONTEL Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:06:19:21] Action for User : ANTONKRE Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2017-10-11:06:30:19] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-10-11:06:30:51] || Action for User : JACOB Otorisasi Data Nasabah Oleh  || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/nasabahvers.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:06:50:53] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:06:51:14] Action for User : ANTONKRE Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2017-10-11:06:51:56] Action for User : ANTONKRE Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2017-10-11:07:03:04] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-10-11:07:07:08] || Action for User : ADMIN Menambah Tarif Asuransi 10001 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:07:07:49] || Action for User : ADMIN Menghapus Tarif Asuransi ID 10 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/tabel_tenor02.php?p=2&id=10 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:07:27:51] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-10-11:07:27:53] Action for User : ANTONKRE Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2017-10-11:09:35:34] Action for User : ANTONKRE Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2017-10-11:09:55:35] Action for User : ANTONKRE Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:56.0) Gecko/20100101 Firefox/56.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+

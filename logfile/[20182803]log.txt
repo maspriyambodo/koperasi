@@ -1,0 +1,16 @@
+[2018-28-03:08:23:25] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.1
+
+[2018-28-03:08:25:25] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/akuntansi.php ||Proxy : 192.168.20.1
+
+[2018-28-03:08:25:42] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-28-03:09:00:20] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/akuntansi.php ||Proxy : 192.168.20.1
+
+[2018-28-03:09:00:34] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-28-03:09:03:14] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/akuntansi.php ||Proxy : 192.168.20.1
+
+[2018-28-03:09:06:22] Action for User : MARULI Masuk Ke Menu Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.80
+
+[2018-28-03:09:07:49] Action for User : MARULI Keluar Dari Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.181 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.80
+

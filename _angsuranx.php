@@ -1,0 +1,83 @@
+<?php 
+$jum=$jumlah;
+$text5="INSERT INTO payment(branch,norek,sufix,nonas,nama,produk,pokok,bunga,adm,jumlah,tgtagihan,kdtran,angsurke,bulan,oper,bussdate,kdaktif,kdkop,tanggal) VALUES";
+if($jum>$bungakk){
+	$jum=$jum-$bungakk;$hasil=$result->query_y1("SELECT branch,norek,sufix,nama,nonas,produk,angsurke,kdtran,kdkop,bulan,tanggal,SUM(if(kdtran=111,pokok,0))-SUM(if(kdtran=777,pokok,0)) as pokok,SUM(if(kdtran=111,bunga,0))-SUM(if(kdtran=777,bunga,0)) as bunga,SUM(if(kdtran=111,adm,0))-SUM(if(kdtran=777,adm,0)) as adm FROM payment WHERE norek='$norek' GROUP BY angsurke ORDER BY angsurke");
+	if($result->num($hasil)<1)die("Data Tagihan Tidak Ada...?");
+while($row=$result->row($hasil)){
+	$pokok=$row['pokok'];$bunga=$row['bunga'];$adm=$row['adm'];$xbranch=$row['branch'];$xnorek=$row['norek'];$xsufix=$row['sufix'];$xnonas=$row['nonas'];$xproduk=$row['produk'];$xangsurke=$row['angsurke'];$xbulan=$row['bulan'];$xnama=$row['nama'];$kdkop=$row['kdkop'];$tgl1=$row['tanggal'];
+	$jumangsur=$pokok+$bunga+$adm;
+	if($pokok>0 || $bunga>0 || $adm>0){
+		if($jum>=$jumangsur){
+			if($adm<0){
+				$adm=0;
+			}else{
+				if($jum>$adm){
+					$jum=$jum-$adm;
+				}else{
+					$pokok=0;$bunga=0;$adm=$jum;$jum=0;
+				}
+			}
+			if($bunga<0){
+				$bunga=0;
+			}else{
+				if($jum>$bunga){
+					$jum=$jum-$bunga;
+				}else{
+					$pokok=0;$bunga=$jum;$jum=0;
+				}
+			}
+			if($pokok<0){
+				$pokok=0;
+			}else{
+				if($jum>$pokok){
+					$jum=$jum-$pokok;
+				}else{
+					$pokok=$jum;$jum=0;
+				}
+			}
+			$jumangsur=$pokok+$bunga+$adm;
+			if($jumangsur>0){
+				$text5 .="('".$xbranch."','".$xnorek."','".$xsufix."','".$xnonas."','".$xnama."','".$xproduk."','".$pokok."','".$bunga."','".$adm."','".$jumangsur."','".$t."',777,'".$xangsurke."','".$xbulan."','".$userid."',now(),30,'".$kdkop."','".$tgl1."'),";
+				$saldoa=$saldoa+$pokok;$blunas=$blunas+$bunga;$alunas=$alunas+$adm;
+			}
+		}else{
+			if($jum>0){
+				if($adm<0){
+					$adm=0;
+				}else{
+					if($jum>$adm){
+						$jum=$jum-$adm;
+					}else{
+						$pokok=0;$bunga=0;$adm=$jum;$jum=0;
+					}
+				}
+				if($bunga<0){
+					$bunga=0;
+				}else{
+					if($jum>$bunga){
+						$jum=$jum-$bunga;
+					}else{
+						$pokok=0;$bunga=$jum;$jum=0;
+					}
+				}if($pokok<0){
+					$pokok=0;
+				}else{
+					if($jum>$pokok){
+						$jum=$jum-$pokok;
+					}else{
+						$pokok=$jum;$jum=0;
+					}
+				}
+				$jumangsur=$pokok+$bunga+$adm;
+				if($jumangsur>0){
+					$text5 .="('".$xbranch."','".$xnorek."','".$xsufix."','".$xnonas."','".$xnama."','".$xproduk."','".$pokok."','".$bunga."','".$adm."','".$jumangsur."','".$t."',777,'".$xangsurke."','".$xbulan."','".$userid."',now(),30,'".$kdkop."','".$tgl1."'),";
+					$saldoa=$saldoa+$pokok;
+					$blunas=$blunas+$bunga;$alunas=$alunas+$adm;
+				}
+			}
+		}
+	}
+}
+}
+?>

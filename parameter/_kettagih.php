@@ -1,0 +1,9 @@
+<?php
+	if($kdkop==1){
+		$xkdkop='BULAN';
+	}elseif($kdkop==2){
+		$xkdkop='HARI';
+	}else{
+		$xkdkop='MINGGU';
+	}		
+?>

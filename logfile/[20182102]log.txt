@@ -1,0 +1,46 @@
+[2018-21-02:02:32:24] Action for User : ADMIN1 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.1
+
+[2018-21-02:02:32:37] || Action for User : ADMIN1 Menonaktifkan ID User 24 || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/tabelusers.php?id=24&p=4 ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:32:41] || Action for User : ADMIN1 Menonaktifkan ID User 23 || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/tabelusers.php?id=23&p=4 ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:32:47] || Action for User : ADMIN1 Menonaktifkan ID User 11 || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/tabelusers.php?id=11&p=4 ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:32:51] || Action for User : ADMIN1 Menonaktifkan ID User 12 || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/tabelusers.php?id=12&p=4 ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:32:55] Action for User : ADMIN1 Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:33:06] Action for User : KREDIT2 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.167 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-21-02:02:45:34] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.80
+
+[2018-21-02:03:19:49] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.80
+
+[2018-21-02:03:20:52] Action for User : ADMIN1 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.80
+
+[2018-21-02:03:37:11] Action for User : KREDIT3 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.80
+
+[2018-21-02:12:52:00] Action for User : ADMIN2 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost:9500/nabasa/ ||Proxy : ::1
+
+[2018-21-02:12:52:08] || Action for User : ADMIN2 Menonaktifkan ID User 13 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/tabelusers.php?id=13&p=4 ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:52:11] || Action for User : ADMIN2 Menonaktifkan ID User 12 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/tabelusers.php?id=12&p=4 ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:52:16] || Action for User : ADMIN2 Menonaktifkan ID User 24 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/tabelusers.php?id=24&p=4 ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:52:20] || Action for User : ADMIN2 Menonaktifkan ID User 23 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/tabelusers.php?id=23&p=4 ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:52:32] Action for User : ADMIN2 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:52:49] Action for User : KREDIT3 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost:9500/nabasa/index.php ||Proxy : ::1
+
+[2018-21-02:12:55:28] Action for User : KREDIT3 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost:9500/nabasa/menu.php ||Proxy : ::1
+
+[2018-21-02:12:55:38] Action for User : AKUN1 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost:9500/nabasa/index.php ||Proxy : ::1
+
+[2018-21-02:12:56:24] Action for User : AKUN1 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost:9500/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-21-02:13:00:34] Action for User : KREDIT3 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.80
+
+[2018-21-02:13:00:41] Action for User : KREDIT3 Keluar Dari Aplikasi || IP asli : 192.168.20.80 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.80
+

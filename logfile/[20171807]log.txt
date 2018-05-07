@@ -1,0 +1,34 @@
+[2017-18-07:10:41:15] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-18-07:11:29:08] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:11:46:55] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-18-07:12:08:03] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:22:40] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-18-07:12:51:16] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:52:42] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:53:35] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:54:09] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:54:48] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:12:56:50] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:13:04:02] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:13:10:00] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:13:16:58] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:13:21:56] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:13:30:07] || Action for User : KSP06 Transaksi Kwitansi Kembali 2017-06-02 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/kkbulan14.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-18-07:14:23:35] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+

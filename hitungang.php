@@ -1,0 +1,44 @@
+<?php
+if($kdkop==1){
+	$bln=date('m',strtotime($tgl));
+	$thn=date('Y',strtotime($tgl));
+	$tglakhir=tglAkhirBulan($thn,intval($bln));
+	$tgl =$thn.'-'.$bln.'-'.$tglakhir;
+}
+$result=$mysql->query("SELECT angsurke,tgtagihan,SUM(if(kdtran=111,pokok,0))-SUM(if(kdtran=777,pokok,0)) as pokok,SUM(if(kdtran=111,bunga,0))-SUM(if(kdtran=777,bunga,0)) as bunga,SUM(if(kdtran=111,adm,0))-SUM(if(kdtran=777,adm,0)) as adm FROM payment  WHERE norek='$norek' AND tanggal<='$tgl' GROUP BY angsurke ORDER BY angsurke");include 'pesanerra.php';
+if(mysqli_num_rows($result)==0){ 
+	$bungakk=0;
+	$jumlunas=$saldoa+$blunas+$alunas+$bungakk;
+	$jumlah=$jumlunas;
+}else{
+	$kpokok=0;$kbunga=0;$kadm=0;$kk=0;$bungakk=0;
+	while($row = $result->fetch_array(MYSQLI_ASSOC)){ 
+		$pokok=$row['pokok'];
+		$bunga=$row['bunga'];
+		$adm=$row['adm'];
+		$xxx=$pokok+$bunga+$adm;
+		if($xxx>0){
+			$kpokok=$kpokok+$pokok;
+			$kbunga=$kbunga+$bunga;
+			$kadm=$kadm+$adm;
+			$kk++;
+		}
+	}
+	if($saldox>0){
+		if($kk>0){
+			$bungakk=$saldoa+$blunas+$alunas;
+			$bungakk=intval(($bungakk*$tbunga)/100)*$kk;
+			$bungakk=0;
+			$saldoa=$kpokok;
+			$blunas=$kbunga;
+			$alunas=$kadm;
+		}else{
+			$saldoa=0;
+			$blunas=0;
+			$alunas=0;
+		}
+		$jumlunas=$saldoa+$blunas+$alunas+$bungakk;
+		$jumlah=$jumlunas;
+	}
+}
+?>

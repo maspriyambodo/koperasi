@@ -1,0 +1,16 @@
+[2018-12-04:11:01:32] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/ ||Proxy : 192.168.20.1
+
+[2018-12-04:11:06:39] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/akuntansi.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:07:06] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:08:53] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/akuntansi.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:09:17] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:31:13] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/check.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:59:05] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.20.220:9500/nabasa/index.php ||Proxy : 192.168.20.1
+
+[2018-12-04:11:59:19] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : 192.168.20.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:59.0) Gecko/20100101 Firefox/59.0 || URL : /nabasa/logout.php ||Referrer : http://192.168.20.220:9500/nabasa/menu.php ||Proxy : 192.168.20.1
+

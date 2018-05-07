@@ -1,0 +1,170 @@
+[2018-02-02:03:29:13] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:03:41:26] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2018-02-02:04:02:20] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2018-02-02:04:11:07] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001241117002 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=17&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:15:45] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001241117003 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=48&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:21:41] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001241117004 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=63&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:25:18] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:04:34:35] || Action for User : KREDIT1 Koreksi Data Nasabah 2000BI || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/new_nasabah23.php?p=2 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:36:44] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:37:09] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:39:57] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2018-02-02:04:40:14] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:04:45:42] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:04:46:21] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217002 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=110&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:46:53] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217001 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=86&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:47:17] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217010 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=415&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:49:05] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217005 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=235&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:49:24] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217006 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=266&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:49:45] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217009 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=384&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:04:50:04] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217007 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=297&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:01:37] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:05:18:19] || Action for User : KREDIT1 Transaksi Memorial 1001213402360 Jumlah 4000000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:19:09] || Action for User : KREDIT1 Transaksi Memorial 1001103102360 Jumlah 4000000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:22:49] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2018-02-02:05:28:31] || Action for User : KREDIT1 Transaksi Kwitansi Kembali 2018-01-30 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/kkbulan14.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:32:49] || Action for User : KREDIT1 Transaksi Memorial 1001213402360 Jumlah 1706000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:34:16] || Action for User : KREDIT1 Transaksi Memorial 1001213204360 Jumlah 1706000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:36:47] || Action for User : KREDIT1 Transaksi Memorial 1001213204360 Jumlah 1706000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:40:10] || Action for User : KREDIT1 Sukses Simpan Setoran Rekening 1001041217008 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/setoran_memo02.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:51:44] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217012 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=478&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:54:38] || Action for User : KREDIT1 Realisasi Tagihan Manual 1001041217013 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/realmanuals.php?id=493&kode_cair=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:05:56:49] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:06:08:23] || Action for User : KREDIT1 Transaksi Memorial 1001213402360 Jumlah 3000000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:06:08:55] || Action for User : KREDIT1 Transaksi Memorial 1001103102360 Jumlah 3000000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:06:29:24] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:06:29:29] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:07:31:53] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:07:42:53] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:07:52:05] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-02-02:07:52:26] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:08:12:57] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-02-02:08:13:50] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:08:33:56] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-02-02:08:40:17] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2018-02-02:09:03:37] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:09:04:23] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:09:06:33] || Action for User : AKUNTANS Transaksi Memorial 1001407903360 Jumlah 89000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:07:34] || Action for User : AKUNTANS Transaksi Memorial 1001419301360 Jumlah 150500 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:08:25] || Action for User : AKUNTANS Transaksi Memorial 1001410305360 Jumlah 65000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:09:39] || Action for User : AKUNTANS Transaksi Memorial 1001410301360 Jumlah 15000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:11:05] || Action for User : AKUNTANS Transaksi Memorial 1001407302360 Jumlah 1242249 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:11:52] || Action for User : AKUNTANS Transaksi Memorial 1001407303360 Jumlah 556806 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:12:34] || Action for User : AKUNTANS Transaksi Memorial 1001407305360 Jumlah 150000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:14:00] || Action for User : AKUNTANS Transaksi Memorial 1001407801360 Jumlah 24000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:14:41] || Action for User : AKUNTANS Transaksi Memorial 1001407801360 Jumlah 6000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:15:28] || Action for User : AKUNTANS Transaksi Memorial 1001419301360 Jumlah 64000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:16:09] || Action for User : AKUNTANS Transaksi Memorial 1001408401360 Jumlah 150000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:17:16] || Action for User : AKUNTANS Transaksi Memorial 1001113203360 Jumlah 210000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:18:28] || Action for User : AKUNTANS Transaksi Memorial 1001407401360 Jumlah 151000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:19:17] || Action for User : AKUNTANS Transaksi Memorial 1001407701360 Jumlah 87000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:21:20] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 2960555 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:09:23:54] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:09:41:38] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:10:07:50] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:10:09:03] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:10:36:22] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:10:36:58] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:10:38:18] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:10:43:08] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:10:59:00] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:11:07:57] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:11:21:01] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:11:21:20] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-02-02:11:28:06] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:11:30:36] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:11:31:00] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:11:31:29] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:11:36:30] || Action for User : KREDIT1 Sukses Simpan Setoran Rekening 1001041217008 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/setoran_memo02.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:11:44:40] Action for User : JACOB Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2018-02-02:11:45:01] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:11:58:27] || Action for User : KREDIT1 Retur Tagihan Rekening 1001041217008 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/retur_save.php?id=957 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:12:20:19] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2018-02-02:12:29:08] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2018-02-02:12:49:41] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-02-02:12:49:46] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+

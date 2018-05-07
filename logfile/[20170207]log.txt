@@ -1,0 +1,12 @@
+[2017-02-07:13:17:09] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-02-07:13:28:29] || Action for User : ADMIN Merubah Tabel Produk DEP || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/tabel_produk02.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-02-07:13:28:46] || Action for User : ADMIN Merubah ID User ADIT || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/tabelusers.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-02-07:13:31:07] || Action for User : ADMIN Mengaktifkan ID Menu 66 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/programaplikasiZ.php?id=66&p=3 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-02-07:20:21:46] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-02-07:21:52:03] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+

@@ -1,0 +1,21 @@
+<?php $bln=$result->c_d($_GET['bln']);$thn=$result->c_d($_GET['thn']);$branch =$result->c_d($_GET['branch']);$produk = $result->c_d($_GET['produk']);$pilih=$result->c_d($_GET['p']);$tglakhir=tglAkhirBulan($thn,intval($bln));$m =$thn.'-'.$bln.'-'.$tglakhir;$tabeln=$userid.'s';
+if($branch=='0111'){
+	if($produk=='9'){
+		$result->query_x1("CREATE TEMPORARY TABLE $tabeln SELECT a.norek,a.nama,a.angsurke,SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0)) as pokoka,SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0)) as bungaa,SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0)) as adma,(SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0))+SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0))+SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0))) AS jumlaha FROM $tabel_payment a JOIN $tabel_kredit b ON a.norek=b.norek WHERE a.tanggal<='$m' AND b.saldo>0 AND b.ketnas!=1 GROUP BY norek,angsurke ORDER BY norek,angsurke");
+	}else{
+		$result->query_x1("CREATE TEMPORARY TABLE $tabeln SELECT a.norek,a.nama,a.angsurke,SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0)) as pokoka,SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0)) as bungaa,SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0)) as adma,(SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0))+SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0))+SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0))) AS jumlaha FROM $tabel_payment a JOIN $tabel_kredit b ON a.norek=b.norek WHERE a.tanggal<='$m' AND b.saldo>0 AND b.ketnas!=1 AND b.produk='$produk' GROUP BY norek,angsurke ORDER BY norek,angsurke");
+	}
+}else{
+	if($produk=='9'){
+		$result->query_x1("CREATE TEMPORARY TABLE $tabeln SELECT a.norek,a.nama,a.angsurke,SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0)) as pokoka,SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0)) as bungaa,SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0)) as adma,(SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0))+SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0))+SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0))) AS jumlaha FROM $tabel_payment a JOIN $tabel_kredit b ON a.norek=b.norek WHERE a.tanggal<='$m' AND b.saldo>0 AND b.ketnas!=1 AND b.branch='$branch' GROUP BY norek,angsurke ORDER BY norek,angsurke");
+	}else{
+		$result->query_x1("CREATE TEMPORARY TABLE $tabeln SELECT a.norek,a.nama,a.angsurke,SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0)) as pokoka,SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0)) as bungaa,SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0)) as adma,(SUM(if(a.kdtran=111,a.pokok,0))-SUM(if(a.kdtran=777,a.pokok,0))+SUM(if(a.kdtran=111,a.bunga,0))-SUM(if(a.kdtran=777,a.bunga,0))+SUM(if(a.kdtran=111,a.adm,0))-SUM(if(a.kdtran=777,a.adm,0))) AS jumlaha FROM $tabel_payment a JOIN $tabel_kredit b ON a.norek=b.norek WHERE a.tanggal<='$m' AND b.saldo>0 AND b.ketnas!=1 AND b.branch='$branch' AND b.produk='$produk' GROUP BY norek,angsurke ORDER BY norek,angsurke");
+	}
+}
+$result->query_x1("CREATE TEMPORARY TABLE $userid SELECT norek,nama,angsurke,SUM(pokoka) as pokoka,SUM(bungaa) as bungaa,SUM(adma) as adma,SUM(jumlaha) as jumlaha,count(*) as rekening FROM $tabeln WHERE jumlaha>0 GROUP BY norek ORDER BY norek");
+if($ada==TRUE){
+	$hasil=$result->query_lap("SELECT a.norek,a.nama,a.pokoka,a.bungaa,a.adma,a.jumlaha,a.rekening,b.nopen,b.branch,b.kkbayar,b.nmbayar,b.jangka,b.produk,b.saldoa,b.nomi,b.kolek,b.ketkolek,b.tgtran,b.jangka,b.suku,b.tgl_jatuh_tempo,b.pokok,b.bunga,b.administrasi,b.pokok+b.bunga+b.administrasi as jumlah,c.nmproduk FROM $userid a JOIN $tabel_kredit b ON a.norek=b.norek JOIN $tabel_produk c ON b.produk=c.kdproduk ORDER BY b.produk,b.kkbayar,a.norek");	
+}else{
+	$hasil=$result->query_lap("SELECT sum(a.pokoka) as pokoka,sum(a.bungaa) as bungaa,sum(a.adma) as adma,sum(a.jumlaha) as jumlaha,b.kkbayar,b.nmbayar,b.produk,sum(b.saldoa) as saldoa,sum(b.nomi) as nomi,sum(b.pokok) as pokok,sum(b.bunga)as bunga,sum(b.administrasi) as administrasi,sum(b.pokok+b.bunga+b.administrasi) as jumlah,c.nmproduk FROM $userid a JOIN $tabel_kredit b ON a.norek=b.norek JOIN $tabel_produk c ON b.produk=c.kdproduk GROUP BY b.produk,b.kkbayar ORDER BY b.produk,b.kkbayar");	
+}
+?>

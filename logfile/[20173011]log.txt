@@ -1,0 +1,14 @@
+[2017-30-11:03:01:15] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-30-11:03:02:11] || Action for User : AKUNTANS Merubah Sandi GL 101102 Tanggal : 24-11-2017 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/tabel_sandi02.php?p=1 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-30-11:03:02:48] || Action for User : AKUNTANS Merubah Sandi GL 103102 Tanggal : 24-11-2017 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/tabel_sandi02.php?p=1 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-30-11:03:05:20] || Action for User : AKUNTANS Merubah Sandi GL 211001 Tanggal : 24-11-2017 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/tabel_sandi02.php?p=1 ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-30-11:03:21:55] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-30-11:11:43:24] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-30-11:12:07:14] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+

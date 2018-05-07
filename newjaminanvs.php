@@ -1,0 +1,3 @@
+<?php 
+include 'h_tetap.php';if(isset( $_POST['id'])){$idCount = count($_POST["id"]);for($i=0;$i<$idCount;$i++){$result->query_y1("UPDATE $tabel_kredit a JOIN nabasa.agunan b ON a.id=b.id SET a.kdskep=b.kdskep,a.nosk=b.nosk,a.pensk=b.pensk,a.tgsk=b.tgsk,a.tgpjk=b.tgpjk,a.tgstnk=b.tgstnk,a.agunan1=b.agunan1,a.agunan2=b.agunan2,a.agunan3=b.agunan3,a.agunan4=b.agunan4,a.agunan5=b.agunan5,a.agunan6=b.agunan6,b.otor='$userid',b.bussdate=now(),b.kode=1 WHERE b.Id='". $_POST["id"][$i]."'");}echo 'Sukses';$result->close();$catat="Otorisasi Peribahan Jaminan ";include 'around.php';}else{echo 'Anda Belum Memilih Salah Satu...?';}
+?>

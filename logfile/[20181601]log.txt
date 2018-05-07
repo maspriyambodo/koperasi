@@ -1,0 +1,172 @@
+[2018-16-01:03:13:44] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:30:03] || Action for User : KREDIT1 Menambah Data Kredit 1001041217013 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:33:32] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:33:49] || Action for User : ADMIN Menonaktifkan ID User 11 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/tabelusers.php?id=11&p=4 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:33:57] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:34:14] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:34:40] || Action for User : JACOB Otorisasi Pinjaman Kredit 1001041217013 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/mkreditvsave.php?id=13 ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:34:50] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:35:17] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:38:51] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:03:39:07] Action for User : JACOB Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:05:46] Action for User : JACOB Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:07:42] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:09:17] || Action for User : AKUNTANS Transaksi Memorial 1001419401360 Jumlah 44000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:10:49] || Action for User : AKUNTANS Transaksi Memorial 1001407303360 Jumlah 50000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:11:29] || Action for User : AKUNTANS Transaksi Memorial 1001407903360 Jumlah 232100 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:12:31] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 326100 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:13:47] || Action for User : AKUNTANS Transaksi Memorial 1001407601360 Jumlah 100000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:14:53] || Action for User : AKUNTANS Transaksi Memorial 1001407401360 Jumlah 122500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:15:48] || Action for User : AKUNTANS Transaksi Memorial 1001419301360 Jumlah 89100 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:16:43] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 311600 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:18:08] || Action for User : AKUNTANS Transaksi Memorial 1001113203360 Jumlah 300000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:20:40] || Action for User : AKUNTANS Transaksi Memorial 1001407501360 Jumlah 770000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:23:39] || Action for User : AKUNTANS Transaksi Memorial 1001405204360 Jumlah 928465 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:26:08] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 1998465 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:30:36] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 23671000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:31:45] || Action for User : AKUNTANS Transaksi Memorial 1001310201360 Jumlah 368500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:49:16] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 8988000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:50:15] || Action for User : AKUNTANS Transaksi Memorial 1001310201360 Jumlah 140000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:50:48] || Action for User : AKUNTANS Transaksi Memorial 1001113203360 Jumlah 18000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:51:20] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 24021500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:51:49] || Action for User : AKUNTANS Transaksi Memorial 1001113203360 Jumlah 6000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:04:56:00] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 9122000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:05:16:02] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:06:55:38] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:06:56:54] || Action for User : AKUNTANS Transaksi Memorial 1001407801360 Jumlah 120000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:06:57:39] || Action for User : AKUNTANS Transaksi Memorial 1001113203360 Jumlah 120000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:11:20] || Action for User : AKUNTANS Transaksi Memorial 1001423103360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:12:13] || Action for User : AKUNTANS Transaksi Memorial 1001423103360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:14:49] || Action for User : AKUNTANS Transaksi Memorial 1001211001360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:16:40] || Action for User : AKUNTANS Transaksi Memorial 1001211001360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:23:25] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 10192000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:07:43:37] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:08:53:09] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:08:59:46] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 10982000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:01:21] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 8332000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:01:50] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 10192000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:02:12] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 10982000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:02:48] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 8332000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:22:51] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:25:06] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 192.168.10.231 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.10.250/nabasa/ ||Proxy : 192.168.10.231
+
+[2018-16-01:09:37:29] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:38:02] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 45591900 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:38:35] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 13862000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:39:00] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 5452000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:39:25] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 45591900 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:39:52] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 13862000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:40:23] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 5452000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:41:19] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 12372000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:41:57] || Action for User : AKUNTANS Transaksi Memorial 1001408401360 Jumlah 400000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:42:28] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 12372000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:42:58] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 400000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:45:23] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 192.168.10.231 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.231
+
+[2018-16-01:09:45:46] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 192.168.10.231 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.10.250/nabasa/index.php ||Proxy : 192.168.10.231
+
+[2018-16-01:09:46:17] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 704000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:47:14] || Action for User : AKUNTANS Transaksi Memorial 1001105101360 Jumlah 527778 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:48:23] || Action for User : AKUNTANS Transaksi Memorial 1001303101360 Jumlah 175750 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:49:50] || Action for User : AKUNTANS Transaksi Memorial 1001310201360 Jumlah 472 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:09:53:42] || Action for User : KREDIT1 Menambah Data Nasabah 2000FW Oleh KREDIT1 || IP asli : 192.168.10.231 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/new_nasabah23.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.231
+
+[2018-16-01:10:07:49] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 192.168.10.231 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.231
+
+[2018-16-01:10:10:22] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:10:18:30] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:10:38:58] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:11:53:32] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-16-01:11:57:00] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 611000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:11:58:55] || Action for User : AKUNTANS Transaksi Memorial 1001105101360 Jumlah 500000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:00:19] || Action for User : AKUNTANS Transaksi Memorial 1001303101360 Jumlah 111000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:34:10] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 10643500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:34:32] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 7412000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:35:05] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 12440000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:35:29] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 10643500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:35:55] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 7412000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:36:18] || Action for User : AKUNTANS Transaksi Memorial 1001103102360 Jumlah 12440000 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:57:38] || Action for User : AKUNTANS Transaksi Memorial 1001103101360 Jumlah 63154500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:12:57:59] || Action for User : AKUNTANS Transaksi Memorial 1001213206360 Jumlah 63154500 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-16-01:13:01:04] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:57.0) Gecko/20100101 Firefox/57.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+

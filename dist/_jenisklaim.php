@@ -1,0 +1,1 @@
+<?php $jenisklaim='';$huruf = array("PP ASURANSI","PPAP CAD. UMUM PENSIUN","PPAP CAD UMUM PEGAWAI","PPAP CAD UMUM MICRO","PPAP CAD. KHUSUS PENSIUN","PPAP CAD KHUSUS PEGAWAI","PPAP CAD KHUSUS MICRO");$i = 0;while($i < 7){if($jenis_klaim==$i){echo $huruf[$i];$jenisklaim=$huruf[$i];}$i++;} ?>

@@ -1,0 +1,38 @@
+[2018-06-02:09:32:31] Action for User : AKUNTANS Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-06-02:09:54:19] || Action for User : AKUNTANS Transaksi Memorial 1001412102360 Jumlah 2580617 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-06-02:09:55:08] || Action for User : AKUNTANS Transaksi Memorial 1001108102360 Jumlah 2580617 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-06-02:09:56:24] || Action for User : AKUNTANS Transaksi Memorial 1001423103360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-06-02:10:00:35] || Action for User : AKUNTANS Transaksi Memorial 1001211001360 Jumlah 3990867 || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-06-02:10:21:56] Action for User : AKUNTANS Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/check.php ||Referrer : http://127.0.0.1/nabasa/akuntansi.php ||Proxy : 127.0.0.1
+
+[2018-06-02:11:33:54] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.10.250/nabasa/ ||Proxy : 192.168.10.1
+
+[2018-06-02:11:34:23] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:34:44] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:35:11] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:35:23] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:35:40] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:35:51] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:36:02] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:36:10] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:36:37] || Action for User : ADMIN Merubah Tarif Asuransi 10001 || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/tabel_tenor02.php?p=1 ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:36:49] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : 192.168.10.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 || URL : /nabasa/logout.php ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.1
+
+[2018-06-02:11:58:41] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://127.0.0.1/nabasa/index.php ||Proxy : 127.0.0.1
+
+[2018-06-02:11:59:17] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : 127.0.0.1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:58.0) Gecko/20100101 Firefox/58.0 || URL : /nabasa/logout.php ||Referrer : http://127.0.0.1/nabasa/menu.php ||Proxy : 127.0.0.1
+

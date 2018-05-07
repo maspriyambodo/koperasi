@@ -1,0 +1,7 @@
+<?php 
+if($produk=='9'){
+	$hasil=$result->query_lap("SELECT a.branch,a.norek,SUM(a.pokok) AS pokok,SUM(a.bunga) AS bunga,SUM(a.adm) AS adm,SUM(a.denda) AS denda,SUM(a.finalti) AS finalti,SUM(a.pokok+a.bunga+a.adm+a.denda+a.finalti) AS jumlah,a.mutasi,a.oper,a.tanggal,b.nopen,b.jangka,b.nmbayar,b.kdsales,b.produk,SUM(b.saldoa) AS saldoa,SUM(b.nomi) AS nomi,c.nmproduk,d.nama as namas,e.nama,count(*) AS rekening FROM $userid a JOIN $tabel_kredit b ON a.norek=b.norek JOIN debit1 c ON b.produk=c.kdproduk JOIN sales d ON b.kdsales=d.idsales JOIN nasabah e ON b.nonas=e.nonas GROUP BY b.produk ORDER BY b.produk");
+}else{
+	$hasil=$result->query_lap("SELECT a.branch,a.norek,SUM(a.pokok) AS pokok,SUM(a.bunga) AS bunga,SUM(a.adm) AS adm,SUM(a.denda) AS denda,SUM(a.finalti) AS finalti,SUM(a.pokok+a.bunga+a.adm+a.denda+a.finalti) AS jumlah,a.mutasi,a.oper,a.tanggal,b.nopen,b.jangka,b.nmbayar,b.kdsales,b.produk,SUM(b.saldoa) AS saldoa,SUM(b.nomi) AS nomi,c.nmproduk,d.nama as namas,e.nama,count(*) AS rekening FROM $userid a JOIN $tabel_kredit b ON a.norek=b.norek JOIN debit1 c ON b.produk=c.kdproduk JOIN sales d ON b.kdsales=d.idsales JOIN nasabah e ON b.nonas=e.nonas WHERE b.produk='$produk' GROUP BY b.produk ORDER BY b.produk");
+}
+?>

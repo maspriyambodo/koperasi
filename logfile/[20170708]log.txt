@@ -1,0 +1,86 @@
+[2017-07-08:12:29:56] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-07-08:12:36:49] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:37:00] Action for User : KSP05 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:12:40:28] Action for User : KSP09 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/ ||Proxy : ::1
+
+[2017-07-08:12:41:17] Action for User : KSP05 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-07-08:12:41:17] Action for User : KSP05 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-07-08:12:41:24] Action for User : KSP06 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:12:42:21] || Action for User : KSP06 Transaksi Memorial 0061102102360 Jumlah 2287000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:42:25] Action for User : KSP09 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:42:33] Action for User : KSP05 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:12:51:54] || Action for User : KSP06 Menambah Data Kredit 0061020617003 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:57:41] Action for User : KSP05 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/akuntansi.php ||Proxy : ::1
+
+[2017-07-08:12:58:00] Action for User : KSP09 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:12:58:21] || Action for User : KSP09 Koreksi Data Nasabah 1012RW || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/new_nasabah23.php?p=2 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:58:59] || Action for User : KSP06 Menambah Data Kredit 0061020617004 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:12:59:26] || Action for User : KSP09 Koreksi Data Nasabah 1012RM || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/new_nasabah23.php?p=2 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:00:30] || Action for User : KSP06 Menambah Data Kredit 0061020617005 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:03:18] || Action for User : KSP09 Koreksi Data Nasabah 1010WC || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/new_nasabah23.php?p=2 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:05:39] || Action for User : KSP06 Menambah Data Kredit 0061020617006 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:08:58] || Action for User : KSP06 Menambah Data Kredit 0061020617007 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:18:00] Action for User : KSP09 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:18:09] Action for User : ADMIN Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:13:23:31] || Action for User : KSP06 Menambah Data Kredit 0061020617008 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newkredits.php?p=1 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:26:33] Action for User : ADMIN Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:26:45] Action for User : KSP03 Masuk Ke Menu Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/prosesmasuk.php ||Referrer : http://localhost/nabasa/index.php ||Proxy : ::1
+
+[2017-07-08:13:28:20] || Action for User : KSP03 Penolakan Pinjaman Kredit 0061020617003 Oleh KSP03 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvb.php?id=3 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:28:36] || Action for User : KSP06 Merubah Data Kredit Pinjaman 0061020617003 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/kredit_koreksi03.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:28:54] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617003 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=3 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:29:01] || Action for User : KSP03 Penolakan Pinjaman Kredit 0061020617004 Oleh KSP03 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvb.php?id=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:29:50] || Action for User : KSP06 Merubah Data Kredit Pinjaman 0061020617004 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/kredit_koreksi03.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:30:35] || Action for User : KSP03 Penolakan Pinjaman Kredit 0061020617004 Oleh KSP03 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvb.php?id=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:31:00] || Action for User : KSP06 Merubah Data Kredit Pinjaman 0061020617004 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/kredit_koreksi03.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:31:15] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617004 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=4 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:31:28] || Action for User : KSP03 Penolakan Pinjaman Kredit 0061020617005 Oleh KSP03 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvb.php?id=5 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:32:32] || Action for User : KSP06 Merubah Data Kredit Pinjaman 0061020617005 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/kredit_koreksi03.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:32:51] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617005 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=5 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:33:00] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617006 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=6 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:33:06] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617007 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=7 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:33:13] || Action for User : KSP03 Otorisasi Pinjaman Kredit 0061020617008 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/mkreditvsave.php?id=8 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:33:51] Action for User : KSP03 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; WOW64; rv:54.0) Gecko/20100101 Firefox/54.0 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:36:15] || Action for User : KSP06 Transaksi Memorial 0061213204360 Jumlah 1056000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:36:35] || Action for User : KSP06 Transaksi Memorial 0061113107360 Jumlah 1056000 || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/newsavess.php?p=5 ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+
+[2017-07-08:13:39:02] Action for User : KSP06 Keluar Dari Aplikasi || IP asli : ::1 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063 || URL : /nabasa/logout.php ||Referrer : http://localhost/nabasa/menu.php ||Proxy : ::1
+

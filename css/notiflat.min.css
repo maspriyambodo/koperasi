@@ -1,0 +1,92 @@
+/*@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700,500,300);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);*/
+.cursor, .notiflat .notification.close, .notiflat section i:hover {
+	cursor: hand;
+	cursor: pointer;}
+.notiflat {
+	position: fixed;
+	z-index: 999;
+	width: 300px;}
+.notiflat .notification {
+	position: relative;
+	overflow: hidden;
+	display: none;}
+.notiflat .notification + .notification {
+	margin-top: 10px;}
+.notiflat .notification:after {
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: inherit;
+	font-size: 50px;
+	position: absolute;
+	top: 0;
+	left: 5px;
+	color: rgba(255, 255, 255, 0.25);}
+.notiflat .notification.success {
+	background-color: #18a689;
+	color: #c6f7ed;}
+.notiflat .notification.success:after {
+	content: "";}/*
+.notiflat .notification.info {
+	background-color: #00a2d9;
+	color: #007ca6;}
+.notiflat .notification.info:after {
+	content: "";} 
+.notiflat .notification.error {
+	background-color: #c75757;
+	color: #170808;}
+.notiflat .notification.error:after {
+	content: "";}
+.notiflat .notification.warning {
+	background-color: #ff9122;
+	color: #221100;}
+.notiflat .notification.warning:after {
+	content: "";}
+.notiflat .notification.question {
+	background-color: #319db5;
+	color: black;}
+.notiflat .notification.question:after {
+	content: "";}
+.notiflat .notification.loading {
+	background-color: #353940;
+	color: black;}
+.notiflat .notification.loading:after {
+	content: "";
+	animation: notispin 2s linear infinite;}
+.notiflat .notification.stripes {
+	background-size: 80px 80px;
+	background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.05) 50%, rgba(255, 255, 255, 0.05) 75%, transparent 75%, transparent);}
+.notiflat .notification.shadow {
+	box-shadow: 0px 1px 12px 1px rgba(0, 0, 0, 0.5);} */
+.notiflat section {
+	padding: 12px 30px 10px 55px;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 14px;
+	font-weight: 400;}
+.notiflat section i {
+	float: right;
+	color: rgba(255, 255, 255, 0.4);
+	top: 11px;
+	right: 10px;
+	position: absolute;}
+.notiflat section i:hover {
+	color: rgba(255, 255, 255, 0.8);}
+.notiflat.left {
+	left: 10px;}
+.notiflat.right {
+	right: 10px;}
+.notiflat.center {
+	width: 500px;
+	left: 50%;
+	margin-left: -250px;}
+.notiflat.bottom {
+	bottom: 10px;}
+.notiflat.top {
+	top: 10px;}
+/*
+@keyframes notispin {
+	100% {
+		-webkit-transform: rotate(360deg);
+		transform: rotate(360deg);}}
+/*# sourceMappingURL=notiflat.min.css.map */

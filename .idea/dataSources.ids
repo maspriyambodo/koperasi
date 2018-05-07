@@ -1,0 +1,4647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySQL - nabasa@localhost" uuid="894f48f0-7f7c-4925-a66e-9a20feda22f8">
+    <database-info product="MySQL" version="5.6.17" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.2">
+      <schema id="1" name="nabasa"/>
+      <table id="2" parent="1" name="00620116b"/>
+      <table id="3" parent="1" name="00621215n"/>
+      <table id="4" parent="1" name="00621215s"/>
+      <table id="5" parent="1" name="0062ttd"/>
+      <table id="6" parent="1" name="akuntansi"/>
+      <table id="7" parent="1" name="aruskas"/>
+      <table id="8" parent="1" name="asuransi"/>
+      <table id="9" parent="1" name="blokir"/>
+      <table id="10" parent="1" name="debit1"/>
+      <table id="11" parent="1" name="debit21"/>
+      <table id="12" parent="1" name="excel"/>
+      <table id="13" parent="1" name="exceln"/>
+      <table id="14" parent="1" name="fc_lokas"/>
+      <table id="15" parent="1" name="fc_pos"/>
+      <table id="16" parent="1" name="fc_prop"/>
+      <table id="17" parent="1" name="ipcapcha"/>
+      <table id="18" parent="1" name="ipvalidasi"/>
+      <table id="19" parent="1" name="jenpen"/>
+      <table id="20" parent="1" name="kdtran"/>
+      <table id="21" parent="1" name="kkb"/>
+      <table id="22" parent="1" name="kred1215"/>
+      <table id="23" parent="1" name="kredit"/>
+      <table id="24" parent="1" name="labarugi"/>
+      <table id="25" parent="1" name="master"/>
+      <table id="26" parent="1" name="menun"/>
+      <table id="27" parent="1" name="nasabah"/>
+      <table id="28" parent="1" name="neraca"/>
+      <table id="29" parent="1" name="neracagab"/>
+      <table id="30" parent="1" name="payment"/>
+      <table id="31" parent="1" name="produkt"/>
+      <table id="32" parent="1" name="sales"/>
+      <table id="33" parent="1" name="sandi"/>
+      <table id="34" parent="1" name="tabungan"/>
+      <table id="35" parent="1" name="tanggal"/>
+      <table id="36" parent="1" name="tblkantor"/>
+      <table id="37" parent="1" name="tbluser"/>
+      <table id="38" parent="1" name="tem_krd"/>
+      <table id="39" parent="1" name="tem_nas"/>
+      <table id="40" parent="1" name="tem_nomi"/>
+      <table id="41" parent="1" name="tem_tgh"/>
+      <table id="42" parent="1" name="tem_tran"/>
+      <table id="43" parent="1" name="tran1215"/>
+      <table id="44" parent="1" name="transfer"/>
+      <table id="45" parent="1" name="ttd"/>
+      <table id="46" parent="1" name="wkb"/>
+      <column id="47" parent="2" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="48" parent="2" name="branch">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="49" parent="2" name="norek">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="50" parent="2" name="sufix">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="51" parent="2" name="nonas">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="52" parent="2" name="nama">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="53" parent="2" name="produk">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="54" parent="2" name="pokok">
+        <data-type>decimal(33)</data-type>
+      </column>
+      <column id="55" parent="2" name="bunga">
+        <data-type>decimal(33)</data-type>
+      </column>
+      <column id="56" parent="2" name="adm">
+        <data-type>decimal(33)</data-type>
+      </column>
+      <column id="57" parent="2" name="jumlah">
+        <data-type>decimal(37)</data-type>
+      </column>
+      <column id="58" parent="2" name="tgtagihan">
+        <data-type>date</data-type>
+      </column>
+      <column id="59" parent="2" name="kdtran">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="60" parent="2" name="angsurke">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="61" parent="2" name="kdaktif">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="62" parent="2" name="oper">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="63" parent="2" name="bussdate">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="64" parent="2" name="bulan">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="65" parent="2" name="kdkop">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="66" parent="3" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="67" parent="3" name="branch">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="68" parent="3" name="norek">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="69" parent="3" name="sufix">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="70" parent="3" name="nonas">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="71" parent="3" name="kdbyr">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="72" parent="3" name="kkbayar">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="73" parent="3" name="nmbayar">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="74" parent="3" name="produk">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="75" parent="3" name="deb1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="76" parent="3" name="pekerjaan">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="77" parent="3" name="tgtran">
+        <data-type>date</data-type>
+      </column>
+      <column id="78" parent="3" name="nomi">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="79" parent="3" name="jangka">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="80" parent="3" name="suku">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="81" parent="3" name="hitbunga">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="82" parent="3" name="kdkop">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="83" parent="3" name="saldo">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="84" parent="3" name="mutdeb">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="85" parent="3" name="mutkre">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="86" parent="3" name="memdeb">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="87" parent="3" name="memkre">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="88" parent="3" name="saldoa">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="89" parent="3" name="pokok">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="90" parent="3" name="bunga">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="91" parent="3" name="administrasi">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="92" parent="3" name="kolek">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="93" parent="3" name="kdsales">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="94" parent="4" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="95" parent="4" name="branch">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="96" parent="4" name="norek">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="97" parent="4" name="sufix">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="98" parent="4" name="nonas">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="99" parent="4" name="produk">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="100" parent="4" name="tgbuka">
+        <data-type>date</data-type>
+      </column>
+      <column id="101" parent="4" name="saldobuku">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="102" parent="4" name="saldoawal">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="103" parent="4" name="mutdebet">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="104" parent="4" name="mutkredit">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="105" parent="4" name="memdebet">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="106" parent="4" name="memkredit">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="107" parent="4" name="saldoakhir">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="108" parent="4" name="saldoblokir">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="109" parent="4" name="kdaktif">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="110" parent="4" name="iduser">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="111" parent="4" name="idotor">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="112" parent="4" name="kdakhir">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="113" parent="5" name="NAMA1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="114" parent="5" name="NAMA2">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="115" parent="5" name="NAMA3">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="116" parent="5" name="NAMA4">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="117" parent="5" name="NAMA5">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="118" parent="5" name="NAMA6">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="119" parent="5" name="NAMA7">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="120" parent="5" name="NAMA8">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="121" parent="6" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="122" parent="6" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="123" parent="6" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="124" parent="6" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="125" parent="6" name="NOREKGL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="126" parent="6" name="NOREKGSL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="127" parent="6" name="NOREKGSSL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="128" parent="6" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="129" parent="6" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="130" parent="6" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="131" parent="6" name="HARI01">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="132" parent="6" name="HARI02">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="133" parent="6" name="HARI03">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="134" parent="6" name="HARI04">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="135" parent="6" name="HARI05">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="136" parent="6" name="HARI06">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="137" parent="6" name="HARI07">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="138" parent="6" name="HARI08">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="139" parent="6" name="HARI09">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="140" parent="6" name="HARI10">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="141" parent="6" name="HARI11">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="142" parent="6" name="HARI12">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="143" parent="6" name="HARI13">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="144" parent="6" name="HARI14">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="145" parent="6" name="HARI15">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="146" parent="6" name="HARI16">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="147" parent="6" name="HARI17">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="148" parent="6" name="HARI18">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="149" parent="6" name="HARI19">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="150" parent="6" name="HARI20">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="151" parent="6" name="HARI21">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="152" parent="6" name="HARI22">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="153" parent="6" name="HARI23">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="154" parent="6" name="HARI24">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="155" parent="6" name="HARI25">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="156" parent="6" name="HARI26">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="157" parent="6" name="HARI27">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="158" parent="6" name="HARI28">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="159" parent="6" name="HARI29">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="160" parent="6" name="HARI30">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="161" parent="6" name="HARI31">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="162" parent="6" name="BULAN01">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="163" parent="6" name="BULAN02">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="164" parent="6" name="BULAN03">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="165" parent="6" name="BULAN04">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="166" parent="6" name="BULAN05">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="167" parent="6" name="BULAN06">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="168" parent="6" name="BULAN07">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="169" parent="6" name="BULAN08">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="170" parent="6" name="BULAN09">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="171" parent="6" name="BULAN10">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="172" parent="6" name="BULAN11">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="173" parent="6" name="BULAN12">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="174" parent="6" name="USERID">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="175" parent="6" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <index id="176" parent="6" name="NOREKGSSL_2">
+        <columns>NOREKGSSL</columns>
+        <unique>1</unique>
+      </index>
+      <key id="177" parent="6" name="NOREKGSSL_2">
+        <columns>NOREKGSSL</columns>
+        <underlying-index>NOREKGSSL_2</underlying-index>
+      </key>
+      <key id="178" parent="6" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="179" parent="7" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="180" parent="7" name="KODE">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="181" parent="7" name="URAIAN">
+        <data-type>varchar(58)</data-type>
+      </column>
+      <column id="182" parent="7" name="SANDI">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="183" parent="7" name="KD03">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="184" parent="7" name="KD02">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="185" parent="7" name="URUT">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <key id="186" parent="7" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="187" parent="8" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="188" parent="8" name="kdpremi">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="189" parent="8" name="nmpremi">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="190" parent="8" name="tgskep">
+        <data-type>date</data-type>
+      </column>
+      <column id="191" parent="8" name="noskep">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="192" parent="8" name="kdaktif">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <key id="193" parent="8" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="194" parent="9" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="195" parent="9" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="196" parent="9" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="197" parent="9" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="198" parent="9" name="NOREK">
+        <data-type>varchar(17)</data-type>
+      </column>
+      <column id="199" parent="9" name="JUMLAH">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="200" parent="9" name="KDTRAN">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;9&apos;</default-expression>
+      </column>
+      <column id="201" parent="9" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="202" parent="9" name="TGAWAL">
+        <data-type>date</data-type>
+      </column>
+      <column id="203" parent="9" name="TGAKHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="204" parent="9" name="KETERANGAN">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="205" parent="9" name="TGTUTUP">
+        <data-type>date</data-type>
+      </column>
+      <column id="206" parent="9" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="207" parent="9" name="OPER1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="208" parent="9" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="209" parent="9" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="210" parent="10" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="211" parent="10" name="KDPRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="212" parent="10" name="NMPRODUK">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="213" parent="10" name="SUKU">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="214" parent="10" name="BBTL">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="215" parent="10" name="BPROVISI">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="216" parent="10" name="BADM">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="217" parent="10" name="BPREMI">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="218" parent="10" name="BDENDA">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="219" parent="10" name="BMETERAI">
+        <data-type>int(5)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="220" parent="10" name="MPLAFON">
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="221" parent="10" name="FLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="222" parent="10" name="SPOKOK">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="223" parent="10" name="SBUNGA">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="224" parent="10" name="SADM">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="225" parent="10" name="SDENDA">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="226" parent="10" name="SBTL">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="227" parent="10" name="SPROVISI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="228" parent="10" name="SPREMI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="229" parent="10" name="SREFUND">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="230" parent="10" name="SMETERAI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="231" parent="10" name="GLFINALTI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="232" parent="10" name="SLUNAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="233" parent="10" name="BTAGIH">
+        <data-type>tinyint(2)</data-type>
+        <default-expression>&apos;27&apos;</default-expression>
+      </column>
+      <column id="234" parent="10" name="BUMUR">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="235" parent="10" name="HBUNGA">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="236" parent="10" name="HTAGIH">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="237" parent="10" name="OPER">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="238" parent="10" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="239" parent="10" name="KDPRODUK">
+        <columns>KDPRODUK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="240" parent="10" name="KDPRODUK">
+        <columns>KDPRODUK</columns>
+        <underlying-index>KDPRODUK</underlying-index>
+      </key>
+      <key id="241" parent="10" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="242" parent="11" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="243" parent="11" name="KODE">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="244" parent="11" name="DESC1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="245" parent="11" name="GRP">
+        <data-type>int(1)</data-type>
+      </column>
+      <key id="246" parent="11" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="247" parent="12" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="248" parent="12" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="249" parent="12" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="250" parent="12" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="251" parent="12" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="252" parent="12" name="NOCITRA">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="253" parent="12" name="NOREKW">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="254" parent="12" name="NOREKS">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="255" parent="12" name="NOREKP">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="256" parent="12" name="NOPEN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="257" parent="12" name="NOKTP">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="258" parent="12" name="TGLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="259" parent="12" name="PEKERJAAN">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="260" parent="12" name="UMUR">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="261" parent="12" name="NMWARIS">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="262" parent="12" name="TGLAHIRW">
+        <data-type>date</data-type>
+      </column>
+      <column id="263" parent="12" name="JENIS">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="264" parent="12" name="JENIS1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="265" parent="12" name="KDJIWA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="266" parent="12" name="NOKARIP">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="267" parent="12" name="NODAPEM">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="268" parent="12" name="KDBYR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="269" parent="12" name="KKBAYAR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="270" parent="12" name="NMBAYAR">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="271" parent="12" name="KDKOP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="272" parent="12" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="273" parent="12" name="DEB1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="274" parent="12" name="NOTRAN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="275" parent="12" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="276" parent="12" name="NOMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="277" parent="12" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="278" parent="12" name="MUTDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="279" parent="12" name="MUTKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="280" parent="12" name="MEMDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="281" parent="12" name="MEMKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="282" parent="12" name="SALDOA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="283" parent="12" name="JANGKA">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="284" parent="12" name="SUKU">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="285" parent="12" name="METERAI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="286" parent="12" name="ANUITAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="287" parent="12" name="HITBUNGA">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="288" parent="12" name="TBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="289" parent="12" name="FLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(6,3)</data-type>
+        <default-expression>&apos;0.000&apos;</default-expression>
+      </column>
+      <column id="290" parent="12" name="PREMI">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="291" parent="12" name="JUMPREMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="292" parent="12" name="JUMREFUND">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="293" parent="12" name="JUMPROVISI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="294" parent="12" name="JUMADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="295" parent="12" name="JUMBTL">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="296" parent="12" name="TGBATAS">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="297" parent="12" name="TGKLAIM">
+        <data-type>date</data-type>
+      </column>
+      <column id="298" parent="12" name="TGMATI">
+        <data-type>date</data-type>
+      </column>
+      <column id="299" parent="12" name="KDPREMI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="300" parent="12" name="NOPREMI">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="301" parent="12" name="KOLEK">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="302" parent="12" name="KETKOLEK">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="303" parent="12" name="KETNAS">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="304" parent="12" name="KKETNAS">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="305" parent="12" name="KDSKEP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="306" parent="12" name="NOSK">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="307" parent="12" name="PENSK">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="308" parent="12" name="TGSK">
+        <data-type>date</data-type>
+      </column>
+      <column id="309" parent="12" name="TGPJK">
+        <data-type>date</data-type>
+      </column>
+      <column id="310" parent="12" name="TGSTNK">
+        <data-type>date</data-type>
+      </column>
+      <column id="311" parent="12" name="AGUNAN1">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="312" parent="12" name="AGUNAN2">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="313" parent="12" name="AGUNAN3">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="314" parent="12" name="AGUNAN4">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="315" parent="12" name="AGUNAN5">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="316" parent="12" name="AGUNAN6">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="317" parent="12" name="KDGOL">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="318" parent="12" name="KDJAMIN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="319" parent="12" name="KDSEKTOR">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="320" parent="12" name="JKREDIT">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="321" parent="12" name="SKREDIT">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="322" parent="12" name="KDGUNA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="323" parent="12" name="GAJI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="324" parent="12" name="SELF1">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="325" parent="12" name="SELF2">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="326" parent="12" name="SELF3">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="327" parent="12" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="328" parent="12" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="329" parent="12" name="KDSALES">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="330" parent="12" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="331" parent="12" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="332" parent="12" name="ADMINISTRASI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="333" parent="12" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="334" parent="12" name="AREKOM">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="335" parent="12" name="NREKOM">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="336" parent="12" name="TREKOM">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="337" parent="12" name="LREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="338" parent="12" name="KREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="339" parent="12" name="BREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="340" parent="12" name="NKTPREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="341" parent="12" name="TKTPREKOM">
+        <data-type>date</data-type>
+      </column>
+      <column id="342" parent="12" name="NOREKL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="343" parent="12" name="SUFIXL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="344" parent="12" name="PRODUKL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="345" parent="12" name="PLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="346" parent="12" name="BLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="347" parent="12" name="ALUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="348" parent="12" name="DBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="349" parent="12" name="SIMPOKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="350" parent="12" name="SIMWAJIB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="351" parent="12" name="NMSID">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="352" parent="12" name="KDPIN">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="353" parent="12" name="KDAKTIF">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="354" parent="12" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="355" parent="12" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <index id="356" parent="12" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="357" parent="12" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="358" parent="12" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="359" parent="13" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="360" parent="13" name="BRANCH">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="361" parent="13" name="NONAS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="362" parent="13" name="SUFIX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+        <default-expression>&apos;100&apos;</default-expression>
+      </column>
+      <column id="363" parent="13" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="364" parent="13" name="TGLLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="365" parent="13" name="TMPLAHIR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="366" parent="13" name="NOKTP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="367" parent="13" name="MASAKTP">
+        <data-type>date</data-type>
+      </column>
+      <column id="368" parent="13" name="NPWP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="369" parent="13" name="JKELAMIN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="370" parent="13" name="AGAMA">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="371" parent="13" name="PENDIDIKAN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="372" parent="13" name="NAMAIBU">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="373" parent="13" name="TANGGUNGAN">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="374" parent="13" name="TLPRUMAH">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="375" parent="13" name="TLPFAX">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="376" parent="13" name="TLPHP1">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="377" parent="13" name="TLPHP2">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="378" parent="13" name="ALAMAT">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="379" parent="13" name="LURAH">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="380" parent="13" name="CAMAT">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="381" parent="13" name="KDPOS">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="382" parent="13" name="KOTA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="383" parent="13" name="PROPINSI">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="384" parent="13" name="NEGARA">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="385" parent="13" name="LAMARMH">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="386" parent="13" name="PEKERJAAN1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="387" parent="13" name="PEKERJAAN2">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="388" parent="13" name="ALAMATB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="389" parent="13" name="LURAHB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="390" parent="13" name="CAMATB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="391" parent="13" name="KDPOSB">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="392" parent="13" name="KOTAB">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="393" parent="13" name="PROPINSIB">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="394" parent="13" name="NPWPU">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="395" parent="13" name="USAHA1">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="396" parent="13" name="USAHA2">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="397" parent="13" name="ALAMATU">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="398" parent="13" name="LURAHU">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="399" parent="13" name="CAMATU">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="400" parent="13" name="KDPOSU">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="401" parent="13" name="KOTAU">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="402" parent="13" name="PROPINSIU">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="403" parent="13" name="BIDANG">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="404" parent="13" name="KBIDANG">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="405" parent="13" name="TLPFAXU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="406" parent="13" name="TLPHPU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="407" parent="13" name="HASILK">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="408" parent="13" name="PKOTOR">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="409" parent="13" name="HASILB">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="410" parent="13" name="PBERSIH">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="411" parent="13" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="412" parent="13" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="413" parent="13" name="SUMBERL">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="414" parent="13" name="SLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="415" parent="13" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="416" parent="13" name="SISTRI">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="417" parent="13" name="KSTATUS">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="418" parent="13" name="RUMAH">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="419" parent="13" name="TUJUANREK">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="420" parent="13" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="421" parent="13" name="OPER">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <index id="422" parent="13" name="NONAS">
+        <columns>NONAS</columns>
+        <unique>1</unique>
+      </index>
+      <index id="423" parent="13" name="NONAS_2">
+        <columns>NONAS</columns>
+        <unique>1</unique>
+      </index>
+      <key id="424" parent="13" name="NONAS">
+        <columns>NONAS</columns>
+        <underlying-index>NONAS</underlying-index>
+      </key>
+      <key id="425" parent="13" name="NONAS_2">
+        <columns>NONAS</columns>
+        <underlying-index>NONAS_2</underlying-index>
+      </key>
+      <key id="426" parent="13" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="427" parent="14" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="428" parent="14" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="429" parent="14" name="KODE">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="430" parent="14" name="DESC1">
+        <data-type>varchar(27)</data-type>
+      </column>
+      <column id="431" parent="14" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="432" parent="14" name="OPER">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+      </column>
+      <key id="433" parent="14" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="434" parent="15" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="435" parent="15" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="436" parent="15" name="KODE">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="437" parent="15" name="DESC1">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="438" parent="15" name="BUSSDATE">
+        <data-type>varchar(17)</data-type>
+      </column>
+      <column id="439" parent="15" name="OPER">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <key id="440" parent="15" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="441" parent="16" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="442" parent="16" name="KODE">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="443" parent="16" name="DESC1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="444" parent="16" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="445" parent="16" name="OPER">
+        <mandatory>1</mandatory>
+        <data-type>varchar(8)</data-type>
+      </column>
+      <key id="446" parent="16" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="447" parent="17" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="448" parent="17" name="IPCHEK">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="449" parent="17" name="LOGINCOUNT">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="450" parent="17" name="TIMEIN">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="451" parent="17" name="USERID">
+        <mandatory>1</mandatory>
+        <data-type>varchar(20)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <index id="452" parent="17" name="ID">
+        <columns>ID</columns>
+        <unique>1</unique>
+      </index>
+      <key id="453" parent="17" name="ID">
+        <columns>ID</columns>
+        <underlying-index>ID</underlying-index>
+      </key>
+      <key id="454" parent="17" name="PRIMARY">
+        <columns>USERID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="455" parent="18" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="456" parent="18" name="IPCHEK">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="457" parent="18" name="LOGINCOUNT">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="458" parent="18" name="TIMEIN">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="459" parent="18" name="ID">
+        <columns>ID</columns>
+        <unique>1</unique>
+      </index>
+      <key id="460" parent="18" name="ID">
+        <columns>ID</columns>
+        <underlying-index>ID</underlying-index>
+      </key>
+      <column id="461" parent="19" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="462" parent="19" name="KDPEN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="463" parent="19" name="KETPEN">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <key id="464" parent="19" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="465" parent="20" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="466" parent="20" name="KDTRAN">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="467" parent="20" name="NAMA">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="468" parent="20" name="KETE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="469" parent="20" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="470" parent="21" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="471" parent="21" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="472" parent="21" name="KD">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="473" parent="21" name="NMKB">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="474" parent="21" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="475" parent="21" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="476" parent="21" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="477" parent="22" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="478" parent="22" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="479" parent="22" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="480" parent="22" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="481" parent="22" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="482" parent="22" name="NOCITRA">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="483" parent="22" name="NOREKW">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="484" parent="22" name="NOREKS">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="485" parent="22" name="NOREKP">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="486" parent="22" name="NOPEN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="487" parent="22" name="NOKTP">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="488" parent="22" name="TGLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="489" parent="22" name="PEKERJAAN">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="490" parent="22" name="UMUR">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="491" parent="22" name="NMWARIS">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="492" parent="22" name="TGLAHIRW">
+        <data-type>date</data-type>
+      </column>
+      <column id="493" parent="22" name="JENIS">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="494" parent="22" name="JENIS1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="495" parent="22" name="KDJIWA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="496" parent="22" name="NOKARIP">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="497" parent="22" name="NODAPEM">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="498" parent="22" name="KDBYR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="499" parent="22" name="KKBAYAR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="500" parent="22" name="NMBAYAR">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="501" parent="22" name="KDKOP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="502" parent="22" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="503" parent="22" name="DEB1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="504" parent="22" name="NOTRAN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="505" parent="22" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="506" parent="22" name="NOMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="507" parent="22" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="508" parent="22" name="MUTDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="509" parent="22" name="MUTKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="510" parent="22" name="MEMDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="511" parent="22" name="MEMKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="512" parent="22" name="SALDOA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="513" parent="22" name="JANGKA">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="514" parent="22" name="SUKU">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="515" parent="22" name="METERAI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="516" parent="22" name="ANUITAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="517" parent="22" name="HITBUNGA">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="518" parent="22" name="TBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="519" parent="22" name="FLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="520" parent="22" name="PREMI">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="521" parent="22" name="JUMPREMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="522" parent="22" name="JUMREFUND">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="523" parent="22" name="JUMPROVISI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="524" parent="22" name="JUMADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="525" parent="22" name="JUMBTL">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="526" parent="22" name="TGBATAS">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="527" parent="22" name="TGKLAIM">
+        <data-type>date</data-type>
+      </column>
+      <column id="528" parent="22" name="TGMATI">
+        <data-type>date</data-type>
+      </column>
+      <column id="529" parent="22" name="KDPREMI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="530" parent="22" name="NOPREMI">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="531" parent="22" name="KOLEK">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="532" parent="22" name="KETKOLEK">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="533" parent="22" name="KETNAS">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="534" parent="22" name="KKETNAS">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="535" parent="22" name="KDSKEP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="536" parent="22" name="NOSK">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="537" parent="22" name="PENSK">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="538" parent="22" name="TGSK">
+        <data-type>date</data-type>
+      </column>
+      <column id="539" parent="22" name="TGPJK">
+        <data-type>date</data-type>
+      </column>
+      <column id="540" parent="22" name="TGSTNK">
+        <data-type>date</data-type>
+      </column>
+      <column id="541" parent="22" name="AGUNAN1">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="542" parent="22" name="AGUNAN2">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="543" parent="22" name="AGUNAN3">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="544" parent="22" name="AGUNAN4">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="545" parent="22" name="AGUNAN5">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="546" parent="22" name="AGUNAN6">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="547" parent="22" name="KDGOL">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="548" parent="22" name="KDJAMIN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="549" parent="22" name="KDSEKTOR">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="550" parent="22" name="JKREDIT">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="551" parent="22" name="SKREDIT">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="552" parent="22" name="KDGUNA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="553" parent="22" name="GAJI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="554" parent="22" name="SELF1">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="555" parent="22" name="SELF2">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="556" parent="22" name="SELF3">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="557" parent="22" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="558" parent="22" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="559" parent="22" name="KDSALES">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="560" parent="22" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="561" parent="22" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="562" parent="22" name="ADMINISTRASI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="563" parent="22" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="564" parent="22" name="AREKOM">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="565" parent="22" name="NREKOM">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="566" parent="22" name="TREKOM">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="567" parent="22" name="LREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="568" parent="22" name="KREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="569" parent="22" name="BREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="570" parent="22" name="NKTPREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="571" parent="22" name="TKTPREKOM">
+        <data-type>date</data-type>
+      </column>
+      <column id="572" parent="22" name="NOREKL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="573" parent="22" name="SUFIXL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="574" parent="22" name="PRODUKL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="575" parent="22" name="PLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="576" parent="22" name="BLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="577" parent="22" name="ALUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="578" parent="22" name="DBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="579" parent="22" name="SIMPOKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="580" parent="22" name="SIMWAJIB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="581" parent="22" name="NMSID">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="582" parent="22" name="KDPIN">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="583" parent="22" name="KDAKTIF">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="584" parent="22" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="585" parent="22" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="586" parent="22" name="KDANGSUR">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="587" parent="22" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="588" parent="22" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="589" parent="22" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="590" parent="23" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="591" parent="23" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="592" parent="23" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="593" parent="23" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="594" parent="23" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="595" parent="23" name="NOCITRA">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="596" parent="23" name="NOREKW">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="597" parent="23" name="NOREKS">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="598" parent="23" name="NOREKP">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="599" parent="23" name="NOPEN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="600" parent="23" name="NOKTP">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="601" parent="23" name="TGLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="602" parent="23" name="PEKERJAAN">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="603" parent="23" name="UMUR">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="604" parent="23" name="NMWARIS">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="605" parent="23" name="TGLAHIRW">
+        <data-type>date</data-type>
+      </column>
+      <column id="606" parent="23" name="JENIS">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="607" parent="23" name="JENIS1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="608" parent="23" name="KDJIWA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="609" parent="23" name="NOKARIP">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="610" parent="23" name="NODAPEM">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="611" parent="23" name="KDBYR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="612" parent="23" name="KKBAYAR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="613" parent="23" name="NMBAYAR">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="614" parent="23" name="KDKOP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="615" parent="23" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="616" parent="23" name="DEB1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="617" parent="23" name="NOTRAN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="618" parent="23" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="619" parent="23" name="NOMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="620" parent="23" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="621" parent="23" name="MUTDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="622" parent="23" name="MUTKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="623" parent="23" name="MEMDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="624" parent="23" name="MEMKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="625" parent="23" name="SALDOA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="626" parent="23" name="JANGKA">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="627" parent="23" name="SUKU">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="628" parent="23" name="METERAI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="629" parent="23" name="ANUITAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="630" parent="23" name="HITBUNGA">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="631" parent="23" name="TBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="632" parent="23" name="FLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="633" parent="23" name="PREMI">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="634" parent="23" name="JUMPREMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="635" parent="23" name="JUMREFUND">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="636" parent="23" name="JUMPROVISI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="637" parent="23" name="JUMADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="638" parent="23" name="JUMBTL">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="639" parent="23" name="TGBATAS">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="640" parent="23" name="TGKLAIM">
+        <data-type>date</data-type>
+      </column>
+      <column id="641" parent="23" name="TGMATI">
+        <data-type>date</data-type>
+      </column>
+      <column id="642" parent="23" name="KDPREMI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="643" parent="23" name="NOPREMI">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="644" parent="23" name="KOLEK">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="645" parent="23" name="KETKOLEK">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="646" parent="23" name="KETNAS">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="647" parent="23" name="KKETNAS">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="648" parent="23" name="KDSKEP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="649" parent="23" name="NOSK">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="650" parent="23" name="PENSK">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="651" parent="23" name="TGSK">
+        <data-type>date</data-type>
+      </column>
+      <column id="652" parent="23" name="TGPJK">
+        <data-type>date</data-type>
+      </column>
+      <column id="653" parent="23" name="TGSTNK">
+        <data-type>date</data-type>
+      </column>
+      <column id="654" parent="23" name="AGUNAN1">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="655" parent="23" name="AGUNAN2">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="656" parent="23" name="AGUNAN3">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="657" parent="23" name="AGUNAN4">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="658" parent="23" name="AGUNAN5">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="659" parent="23" name="AGUNAN6">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="660" parent="23" name="KDGOL">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="661" parent="23" name="KDJAMIN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="662" parent="23" name="KDSEKTOR">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="663" parent="23" name="JKREDIT">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="664" parent="23" name="SKREDIT">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="665" parent="23" name="KDGUNA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="666" parent="23" name="GAJI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="667" parent="23" name="SELF1">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="668" parent="23" name="SELF2">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="669" parent="23" name="SELF3">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="670" parent="23" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="671" parent="23" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="672" parent="23" name="KDSALES">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="673" parent="23" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="674" parent="23" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="675" parent="23" name="ADMINISTRASI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="676" parent="23" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="677" parent="23" name="AREKOM">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="678" parent="23" name="NREKOM">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="679" parent="23" name="TREKOM">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="680" parent="23" name="LREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="681" parent="23" name="KREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="682" parent="23" name="BREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="683" parent="23" name="NKTPREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="684" parent="23" name="TKTPREKOM">
+        <data-type>date</data-type>
+      </column>
+      <column id="685" parent="23" name="NOREKL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="686" parent="23" name="SUFIXL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="687" parent="23" name="PRODUKL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="688" parent="23" name="PLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="689" parent="23" name="BLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="690" parent="23" name="ALUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="691" parent="23" name="DBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="692" parent="23" name="SIMPOKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="693" parent="23" name="SIMWAJIB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="694" parent="23" name="NMSID">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="695" parent="23" name="KDPIN">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="696" parent="23" name="KDAKTIF">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="697" parent="23" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="698" parent="23" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="699" parent="23" name="KDANGSUR">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="700" parent="23" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="701" parent="23" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="702" parent="23" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="703" parent="24" name="URUT">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="704" parent="24" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="705" parent="24" name="URAIAN">
+        <data-type>varchar(38)</data-type>
+      </column>
+      <column id="706" parent="24" name="SANDI">
+        <data-type>int(6)</data-type>
+      </column>
+      <index id="707" parent="24" name="SANDI">
+        <columns>SANDI</columns>
+        <unique>1</unique>
+      </index>
+      <key id="708" parent="24" name="PRIMARY">
+        <columns>URUT</columns>
+        <primary>1</primary>
+      </key>
+      <key id="709" parent="24" name="SANDI">
+        <columns>SANDI</columns>
+        <underlying-index>SANDI</underlying-index>
+      </key>
+      <column id="710" parent="25" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="711" parent="25" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="712" parent="25" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="713" parent="25" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="714" parent="25" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="715" parent="25" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="716" parent="25" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="717" parent="25" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="718" parent="25" name="USERID">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="719" parent="25" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="720" parent="25" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <index id="721" parent="25" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="722" parent="25" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="723" parent="25" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="724" parent="26" name="id">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+      </column>
+      <column id="725" parent="26" name="parent_id">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="726" parent="26" name="title">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="727" parent="26" name="url">
+        <mandatory>1</mandatory>
+        <data-type>varchar(100)</data-type>
+        <default-expression>&apos;&apos;</default-expression>
+      </column>
+      <column id="728" parent="26" name="menu_order">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3) unsigned</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="729" parent="26" name="kode0">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="730" parent="26" name="kode1">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="731" parent="26" name="kode2">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="732" parent="26" name="kode3">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="733" parent="26" name="kode4">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="734" parent="26" name="kode5">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="735" parent="26" name="kode6">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="736" parent="26" name="PRIMARY">
+        <columns>id</columns>
+        <primary>1</primary>
+      </key>
+      <column id="737" parent="27" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="738" parent="27" name="BRANCH">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="739" parent="27" name="NONAS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="740" parent="27" name="SUFIX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+        <default-expression>&apos;100&apos;</default-expression>
+      </column>
+      <column id="741" parent="27" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="742" parent="27" name="TGLLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="743" parent="27" name="TMPLAHIR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="744" parent="27" name="NOKTP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="745" parent="27" name="MASAKTP">
+        <data-type>date</data-type>
+      </column>
+      <column id="746" parent="27" name="NPWP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="747" parent="27" name="JKELAMIN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="748" parent="27" name="AGAMA">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="749" parent="27" name="PENDIDIKAN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="750" parent="27" name="NAMAIBU">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="751" parent="27" name="TANGGUNGAN">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="752" parent="27" name="TLPRUMAH">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="753" parent="27" name="TLPFAX">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="754" parent="27" name="TLPHP1">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="755" parent="27" name="TLPHP2">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="756" parent="27" name="ALAMAT">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="757" parent="27" name="LURAH">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="758" parent="27" name="CAMAT">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="759" parent="27" name="KDPOS">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="760" parent="27" name="KOTA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="761" parent="27" name="PROPINSI">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="762" parent="27" name="NEGARA">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="763" parent="27" name="LAMARMH">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="764" parent="27" name="PEKERJAAN1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="765" parent="27" name="PEKERJAAN2">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="766" parent="27" name="ALAMATB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="767" parent="27" name="LURAHB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="768" parent="27" name="CAMATB">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="769" parent="27" name="KDPOSB">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="770" parent="27" name="KOTAB">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="771" parent="27" name="PROPINSIB">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="772" parent="27" name="NPWPU">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="773" parent="27" name="USAHA1">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="774" parent="27" name="USAHA2">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="775" parent="27" name="ALAMATU">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="776" parent="27" name="LURAHU">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="777" parent="27" name="CAMATU">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="778" parent="27" name="KDPOSU">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="779" parent="27" name="KOTAU">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="780" parent="27" name="PROPINSIU">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="781" parent="27" name="BIDANG">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="782" parent="27" name="KBIDANG">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="783" parent="27" name="TLPFAXU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="784" parent="27" name="TLPHPU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="785" parent="27" name="HASILK">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="786" parent="27" name="PKOTOR">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="787" parent="27" name="HASILB">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="788" parent="27" name="PBERSIH">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="789" parent="27" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="790" parent="27" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="791" parent="27" name="SUMBERL">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="792" parent="27" name="SLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="793" parent="27" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="794" parent="27" name="SISTRI">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="795" parent="27" name="KSTATUS">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="796" parent="27" name="RUMAH">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="797" parent="27" name="TUJUANREK">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="798" parent="27" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="799" parent="27" name="OPER">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <index id="800" parent="27" name="NONAS">
+        <columns>NONAS</columns>
+        <unique>1</unique>
+      </index>
+      <index id="801" parent="27" name="NONAS_2">
+        <columns>NONAS</columns>
+        <unique>1</unique>
+      </index>
+      <key id="802" parent="27" name="NONAS">
+        <columns>NONAS</columns>
+        <underlying-index>NONAS</underlying-index>
+      </key>
+      <key id="803" parent="27" name="NONAS_2">
+        <columns>NONAS</columns>
+        <underlying-index>NONAS_2</underlying-index>
+      </key>
+      <key id="804" parent="27" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="805" parent="28" name="URUT">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="806" parent="28" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="807" parent="28" name="URAIAN">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="808" parent="28" name="SANDI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <index id="809" parent="28" name="SANDI">
+        <columns>SANDI</columns>
+        <unique>1</unique>
+      </index>
+      <key id="810" parent="28" name="PRIMARY">
+        <columns>URUT</columns>
+        <primary>1</primary>
+      </key>
+      <key id="811" parent="28" name="SANDI">
+        <columns>SANDI</columns>
+        <underlying-index>SANDI</underlying-index>
+      </key>
+      <column id="812" parent="29" name="URUT">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="813" parent="29" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="814" parent="29" name="URAIAN">
+        <data-type>varchar(38)</data-type>
+      </column>
+      <column id="815" parent="29" name="SANDI">
+        <data-type>int(6)</data-type>
+      </column>
+      <key id="816" parent="29" name="PRIMARY">
+        <columns>URUT</columns>
+        <primary>1</primary>
+      </key>
+      <column id="817" parent="30" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="818" parent="30" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="819" parent="30" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="820" parent="30" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="821" parent="30" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="822" parent="30" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="823" parent="30" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="824" parent="30" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="825" parent="30" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="826" parent="30" name="ADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="827" parent="30" name="JUMLAH">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="828" parent="30" name="TGTAGIHAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="829" parent="30" name="KDTRAN">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="830" parent="30" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="831" parent="30" name="KDAKTIF">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="832" parent="30" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="833" parent="30" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="834" parent="30" name="BULAN">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="835" parent="30" name="KDKOP">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="836" parent="30" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="837" parent="31" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(3)</data-type>
+      </column>
+      <column id="838" parent="31" name="KDPRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="839" parent="31" name="NMPRODUK">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="840" parent="31" name="SMINIMUM">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="841" parent="31" name="SAWAL">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="842" parent="31" name="BUNGA1">
+        <data-type>decimal(6,3)</data-type>
+        <default-expression>&apos;0.000&apos;</default-expression>
+      </column>
+      <column id="843" parent="31" name="BUNGA2">
+        <data-type>decimal(6,3)</data-type>
+        <default-expression>&apos;0.000&apos;</default-expression>
+      </column>
+      <column id="844" parent="31" name="BUNGA3">
+        <data-type>decimal(6,3)</data-type>
+        <default-expression>&apos;0.000&apos;</default-expression>
+      </column>
+      <column id="845" parent="31" name="SALDO1">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="846" parent="31" name="SALDO2">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="847" parent="31" name="SALDO3">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="848" parent="31" name="SALDO4">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="849" parent="31" name="ADM">
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="850" parent="31" name="HBUNGA">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="851" parent="31" name="GSSL">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="852" parent="31" name="SPAJAK">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="853" parent="31" name="SBUNGA">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="854" parent="31" name="SADM">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="855" parent="31" name="STUTUP">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="856" parent="31" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="857" parent="31" name="OPER">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <index id="858" parent="31" name="KDPRODUK">
+        <columns>KDPRODUK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="859" parent="31" name="KDPRODUK">
+        <columns>KDPRODUK</columns>
+        <underlying-index>KDPRODUK</underlying-index>
+      </key>
+      <key id="860" parent="31" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="861" parent="32" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="862" parent="32" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="863" parent="32" name="IDSALES">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="864" parent="32" name="NAMA">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="865" parent="32" name="ALAMAT">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="866" parent="32" name="KELURAHAN">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="867" parent="32" name="KECAMATAN">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="868" parent="32" name="KABUPATEN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="869" parent="32" name="NOSK">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="870" parent="32" name="TGLMASUK">
+        <data-type>date</data-type>
+      </column>
+      <column id="871" parent="32" name="NOTLP">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="872" parent="32" name="NOKTP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="873" parent="32" name="TGLKTP">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <index id="874" parent="32" name="IDSALES">
+        <columns>IDSALES</columns>
+        <unique>1</unique>
+      </index>
+      <key id="875" parent="32" name="IDSALES">
+        <columns>IDSALES</columns>
+        <underlying-index>IDSALES</underlying-index>
+      </key>
+      <key id="876" parent="32" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="877" parent="33" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="878" parent="33" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="879" parent="33" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="880" parent="33" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="881" parent="33" name="NOREKGL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="882" parent="33" name="NOREKGSL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="883" parent="33" name="NOREKGSSL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="884" parent="33" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="885" parent="33" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="886" parent="33" name="KODE">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="887" parent="33" name="HARI01">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="888" parent="33" name="HARI02">
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="889" parent="33" name="HARI03">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="890" parent="33" name="HARI04">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="891" parent="33" name="HARI05">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="892" parent="33" name="HARI06">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="893" parent="33" name="HARI07">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="894" parent="33" name="HARI08">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="895" parent="33" name="HARI09">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="896" parent="33" name="HARI10">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="897" parent="33" name="HARI11">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="898" parent="33" name="HARI12">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="899" parent="33" name="HARI13">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="900" parent="33" name="HARI14">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="901" parent="33" name="HARI15">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="902" parent="33" name="HARI16">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="903" parent="33" name="HARI17">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="904" parent="33" name="HARI18">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="905" parent="33" name="HARI19">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="906" parent="33" name="HARI20">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="907" parent="33" name="HARI21">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="908" parent="33" name="HARI22">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="909" parent="33" name="HARI23">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="910" parent="33" name="HARI24">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="911" parent="33" name="HARI25">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="912" parent="33" name="HARI26">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="913" parent="33" name="HARI27">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="914" parent="33" name="HARI28">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="915" parent="33" name="HARI29">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="916" parent="33" name="HARI30">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="917" parent="33" name="HARI31">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="918" parent="33" name="BULAN01">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="919" parent="33" name="BULAN02">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="920" parent="33" name="BULAN03">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="921" parent="33" name="BULAN04">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="922" parent="33" name="BULAN05">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="923" parent="33" name="BULAN06">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="924" parent="33" name="BULAN07">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="925" parent="33" name="BULAN08">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="926" parent="33" name="BULAN09">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="927" parent="33" name="BULAN10">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="928" parent="33" name="BULAN11">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="929" parent="33" name="BULAN12">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="930" parent="33" name="USERID">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="931" parent="33" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <index id="932" parent="33" name="NOREKGSSL_2">
+        <columns>NOREKGSSL</columns>
+        <unique>1</unique>
+      </index>
+      <key id="933" parent="33" name="NOREKGSSL_2">
+        <columns>NOREKGSSL</columns>
+        <underlying-index>NOREKGSSL_2</underlying-index>
+      </key>
+      <key id="934" parent="33" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="935" parent="34" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="936" parent="34" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="937" parent="34" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="938" parent="34" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="939" parent="34" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="940" parent="34" name="TGBUKA">
+        <data-type>date</data-type>
+      </column>
+      <column id="941" parent="34" name="TGTUTUP">
+        <data-type>date</data-type>
+      </column>
+      <column id="942" parent="34" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="943" parent="34" name="TGCETAK">
+        <data-type>date</data-type>
+      </column>
+      <column id="944" parent="34" name="BARIS">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="945" parent="34" name="KDCETAK">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="946" parent="34" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="947" parent="34" name="SALDOBUKU">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="948" parent="34" name="SALDOAWAL">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="949" parent="34" name="MUTDEBET">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="950" parent="34" name="MUTKREDIT">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="951" parent="34" name="MEMDEBET">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="952" parent="34" name="MEMKREDIT">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="953" parent="34" name="SALDOAKHIR">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="954" parent="34" name="SALDOBLOKIR">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="955" parent="34" name="KDAKTIF">
+        <mandatory>1</mandatory>
+        <data-type>varchar(1)</data-type>
+        <default-expression>&apos;1&apos;</default-expression>
+      </column>
+      <column id="956" parent="34" name="IDUSER">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="957" parent="34" name="IDOTOR">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="958" parent="34" name="SANDI">
+        <data-type>varchar(9)</data-type>
+      </column>
+      <column id="959" parent="34" name="KDAKHIR">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="960" parent="34" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="961" parent="34" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="962" parent="34" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="963" parent="35" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="964" parent="35" name="TANGGAL">
+        <mandatory>1</mandatory>
+        <data-type>date</data-type>
+      </column>
+      <column id="965" parent="35" name="KETERANGAN">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="966" parent="35" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="967" parent="35" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <index id="968" parent="35" name="TANGGAL">
+        <columns>TANGGAL</columns>
+        <unique>1</unique>
+      </index>
+      <key id="969" parent="35" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <key id="970" parent="35" name="TANGGAL">
+        <columns>TANGGAL</columns>
+        <underlying-index>TANGGAL</underlying-index>
+      </key>
+      <column id="971" parent="36" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="972" parent="36" name="KODE">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="973" parent="36" name="NAMA">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="974" parent="36" name="ALAMAT">
+        <data-type>varchar(60)</data-type>
+      </column>
+      <column id="975" parent="36" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="976" parent="36" name="OPER">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <key id="977" parent="36" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="978" parent="37" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>smallint(5)</data-type>
+      </column>
+      <column id="979" parent="37" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="980" parent="37" name="USERID">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="981" parent="37" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="982" parent="37" name="NIK">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="983" parent="37" name="CABANG">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="984" parent="37" name="TELEPON">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="985" parent="37" name="AKSES">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="986" parent="37" name="PLAFON">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="987" parent="37" name="PLAFONK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="988" parent="37" name="PASS">
+        <data-type>varchar(256)</data-type>
+      </column>
+      <column id="989" parent="37" name="STATUS">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="990" parent="37" name="LOGINATMP">
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="991" parent="37" name="FADDR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="992" parent="37" name="BUSS">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="993" parent="37" name="OPER">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="994" parent="37" name="LASTAKTIF">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="995" parent="37" name="JMLLOGIN">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <key id="996" parent="37" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="997" parent="38" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="998" parent="38" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="999" parent="38" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1000" parent="38" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1001" parent="38" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1002" parent="38" name="NOCITRA">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1003" parent="38" name="NOREKW">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1004" parent="38" name="NOREKS">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1005" parent="38" name="NOREKP">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1006" parent="38" name="NOPEN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1007" parent="38" name="NOKTP">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1008" parent="38" name="TGLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="1009" parent="38" name="PEKERJAAN">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1010" parent="38" name="UMUR">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1011" parent="38" name="NMWARIS">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1012" parent="38" name="TGLAHIRW">
+        <data-type>date</data-type>
+      </column>
+      <column id="1013" parent="38" name="JENIS">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1014" parent="38" name="JENIS1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1015" parent="38" name="KDJIWA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1016" parent="38" name="NOKARIP">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1017" parent="38" name="NODAPEM">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1018" parent="38" name="KDBYR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="1019" parent="38" name="KKBAYAR">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="1020" parent="38" name="NMBAYAR">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="1021" parent="38" name="KDKOP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1022" parent="38" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1023" parent="38" name="DEB1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1024" parent="38" name="NOTRAN">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1025" parent="38" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="1026" parent="38" name="NOMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1027" parent="38" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1028" parent="38" name="MUTDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1029" parent="38" name="MUTKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1030" parent="38" name="MEMDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1031" parent="38" name="MEMKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1032" parent="38" name="SALDOA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1033" parent="38" name="JANGKA">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1034" parent="38" name="SUKU">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="1035" parent="38" name="METERAI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1036" parent="38" name="ANUITAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="1037" parent="38" name="HITBUNGA">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1038" parent="38" name="TBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="1039" parent="38" name="FLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="1040" parent="38" name="PREMI">
+        <mandatory>1</mandatory>
+        <data-type>decimal(5,2)</data-type>
+        <default-expression>&apos;0.00&apos;</default-expression>
+      </column>
+      <column id="1041" parent="38" name="JUMPREMI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1042" parent="38" name="JUMREFUND">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1043" parent="38" name="JUMPROVISI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1044" parent="38" name="JUMADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1045" parent="38" name="JUMBTL">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1046" parent="38" name="TGBATAS">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1047" parent="38" name="TGKLAIM">
+        <data-type>date</data-type>
+      </column>
+      <column id="1048" parent="38" name="TGMATI">
+        <data-type>date</data-type>
+      </column>
+      <column id="1049" parent="38" name="KDPREMI">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1050" parent="38" name="NOPREMI">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="1051" parent="38" name="KOLEK">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1052" parent="38" name="KETKOLEK">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="1053" parent="38" name="KETNAS">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1054" parent="38" name="KKETNAS">
+        <data-type>tinyint(2)</data-type>
+      </column>
+      <column id="1055" parent="38" name="KDSKEP">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1056" parent="38" name="NOSK">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1057" parent="38" name="PENSK">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="1058" parent="38" name="TGSK">
+        <data-type>date</data-type>
+      </column>
+      <column id="1059" parent="38" name="TGPJK">
+        <data-type>date</data-type>
+      </column>
+      <column id="1060" parent="38" name="TGSTNK">
+        <data-type>date</data-type>
+      </column>
+      <column id="1061" parent="38" name="AGUNAN1">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1062" parent="38" name="AGUNAN2">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1063" parent="38" name="AGUNAN3">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1064" parent="38" name="AGUNAN4">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1065" parent="38" name="AGUNAN5">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1066" parent="38" name="AGUNAN6">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1067" parent="38" name="KDGOL">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1068" parent="38" name="KDJAMIN">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1069" parent="38" name="KDSEKTOR">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1070" parent="38" name="JKREDIT">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1071" parent="38" name="SKREDIT">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1072" parent="38" name="KDGUNA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1073" parent="38" name="GAJI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1074" parent="38" name="SELF1">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1075" parent="38" name="SELF2">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1076" parent="38" name="SELF3">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1077" parent="38" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1078" parent="38" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1079" parent="38" name="KDSALES">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="1080" parent="38" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1081" parent="38" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1082" parent="38" name="ADMINISTRASI">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1083" parent="38" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>smallint(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1084" parent="38" name="AREKOM">
+        <data-type>varchar(50)</data-type>
+      </column>
+      <column id="1085" parent="38" name="NREKOM">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1086" parent="38" name="TREKOM">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1087" parent="38" name="LREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1088" parent="38" name="KREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1089" parent="38" name="BREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1090" parent="38" name="NKTPREKOM">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1091" parent="38" name="TKTPREKOM">
+        <data-type>date</data-type>
+      </column>
+      <column id="1092" parent="38" name="NOREKL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1093" parent="38" name="SUFIXL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1094" parent="38" name="PRODUKL">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1095" parent="38" name="PLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1096" parent="38" name="BLUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1097" parent="38" name="ALUNAS">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1098" parent="38" name="DBUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1099" parent="38" name="SIMPOKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1100" parent="38" name="SIMWAJIB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1101" parent="38" name="NMSID">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="1102" parent="38" name="KDPIN">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1103" parent="38" name="KDAKTIF">
+        <data-type>tinyint(1)</data-type>
+      </column>
+      <column id="1104" parent="38" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1105" parent="38" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1106" parent="38" name="KDANGSUR">
+        <mandatory>1</mandatory>
+        <data-type>int(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <index id="1107" parent="38" name="NOREK">
+        <columns>NOREK</columns>
+        <unique>1</unique>
+      </index>
+      <key id="1108" parent="38" name="NOREK">
+        <columns>NOREK</columns>
+        <underlying-index>NOREK</underlying-index>
+      </key>
+      <key id="1109" parent="38" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1110" parent="39" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+      </column>
+      <column id="1111" parent="39" name="BRANCH">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1112" parent="39" name="NONAS">
+        <mandatory>1</mandatory>
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1113" parent="39" name="SUFIX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+        <default-expression>&apos;100&apos;</default-expression>
+      </column>
+      <column id="1114" parent="39" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1115" parent="39" name="TGLLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="1116" parent="39" name="TMPLAHIR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1117" parent="39" name="NOKTP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="1118" parent="39" name="MASAKTP">
+        <data-type>date</data-type>
+      </column>
+      <column id="1119" parent="39" name="NPWP">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <column id="1120" parent="39" name="JKELAMIN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1121" parent="39" name="AGAMA">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1122" parent="39" name="PENDIDIKAN">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1123" parent="39" name="NAMAIBU">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1124" parent="39" name="TANGGUNGAN">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1125" parent="39" name="TLPRUMAH">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1126" parent="39" name="TLPFAX">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1127" parent="39" name="TLPHP1">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1128" parent="39" name="TLPHP2">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1129" parent="39" name="ALAMAT">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1130" parent="39" name="LURAH">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1131" parent="39" name="CAMAT">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1132" parent="39" name="KDPOS">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="1133" parent="39" name="KOTA">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1134" parent="39" name="PROPINSI">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1135" parent="39" name="NEGARA">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1136" parent="39" name="LAMARMH">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1137" parent="39" name="PEKERJAAN1">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1138" parent="39" name="PEKERJAAN2">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1139" parent="39" name="ALAMATB">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1140" parent="39" name="LURAHB">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1141" parent="39" name="CAMATB">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1142" parent="39" name="KDPOSB">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="1143" parent="39" name="KOTAB">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1144" parent="39" name="PROPINSIB">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1145" parent="39" name="NPWPU">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1146" parent="39" name="USAHA1">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1147" parent="39" name="USAHA2">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1148" parent="39" name="ALAMATU">
+        <data-type>varchar(45)</data-type>
+      </column>
+      <column id="1149" parent="39" name="LURAHU">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1150" parent="39" name="CAMATU">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1151" parent="39" name="KDPOSU">
+        <data-type>varchar(5)</data-type>
+      </column>
+      <column id="1152" parent="39" name="KOTAU">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1153" parent="39" name="PROPINSIU">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1154" parent="39" name="BIDANG">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1155" parent="39" name="KBIDANG">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1156" parent="39" name="TLPFAXU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1157" parent="39" name="TLPHPU">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1158" parent="39" name="HASILK">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1159" parent="39" name="PKOTOR">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1160" parent="39" name="HASILB">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1161" parent="39" name="PBERSIH">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1162" parent="39" name="PBANK">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1163" parent="39" name="PLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1164" parent="39" name="SUMBERL">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(4)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1165" parent="39" name="SLAIN">
+        <mandatory>1</mandatory>
+        <data-type>int(12)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1166" parent="39" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1167" parent="39" name="SISTRI">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1168" parent="39" name="KSTATUS">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1169" parent="39" name="RUMAH">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1170" parent="39" name="TUJUANREK">
+        <data-type>tinyint(4)</data-type>
+      </column>
+      <column id="1171" parent="39" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="1172" parent="39" name="OPER">
+        <data-type>varchar(25)</data-type>
+      </column>
+      <key id="1173" parent="39" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1174" parent="40" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="1175" parent="40" name="BRANCH">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1176" parent="40" name="NONAS">
+        <data-type>varchar(10)</data-type>
+      </column>
+      <column id="1177" parent="40" name="SUFIX">
+        <mandatory>1</mandatory>
+        <data-type>varchar(3)</data-type>
+        <default-expression>&apos;300&apos;</default-expression>
+      </column>
+      <column id="1178" parent="40" name="NOREK">
+        <data-type>varchar(17)</data-type>
+      </column>
+      <column id="1179" parent="40" name="KDBYR">
+        <data-type>varchar(9)</data-type>
+      </column>
+      <column id="1180" parent="40" name="KKBAYAR">
+        <data-type>varchar(12)</data-type>
+      </column>
+      <column id="1181" parent="40" name="NMBAYAR">
+        <data-type>varchar(35)</data-type>
+      </column>
+      <column id="1182" parent="40" name="KDKOP">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="1183" parent="40" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="1184" parent="40" name="DEB1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1185" parent="40" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="1186" parent="40" name="NOMI">
+        <mandatory>1</mandatory>
+        <data-type>int(15)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1187" parent="40" name="SALDO">
+        <mandatory>1</mandatory>
+        <data-type>int(15)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1188" parent="40" name="MUTDEB">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1189" parent="40" name="MUTKRE">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1190" parent="40" name="SALDOA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1191" parent="40" name="JANGKA">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1192" parent="40" name="SUKU">
+        <mandatory>1</mandatory>
+        <data-type>decimal(6,3)</data-type>
+        <default-expression>&apos;0.000&apos;</default-expression>
+      </column>
+      <column id="1193" parent="40" name="HITBUNGA">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1194" parent="40" name="KOLEK">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <column id="1195" parent="40" name="AKOLEK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1196" parent="40" name="KETNAS">
+        <mandatory>1</mandatory>
+        <data-type>tinyint(1)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1197" parent="40" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="1198" parent="40" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1199" parent="41" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1200" parent="41" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1201" parent="41" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1202" parent="41" name="SUFIX">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1203" parent="41" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1204" parent="41" name="NAMA">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1205" parent="41" name="PRODUK">
+        <data-type>varchar(7)</data-type>
+      </column>
+      <column id="1206" parent="41" name="POKOK">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1207" parent="41" name="BUNGA">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1208" parent="41" name="ADM">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1209" parent="41" name="JUMLAH">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1210" parent="41" name="TGTAGIHAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="1211" parent="41" name="KDTRAN">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1212" parent="41" name="ANGSURKE">
+        <mandatory>1</mandatory>
+        <data-type>int(3)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1213" parent="41" name="KDAKTIF">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1214" parent="41" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1215" parent="41" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <column id="1216" parent="41" name="BULAN">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1217" parent="41" name="KDKOP">
+        <data-type>varchar(1)</data-type>
+      </column>
+      <key id="1218" parent="41" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1219" parent="42" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1220" parent="42" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1221" parent="42" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1222" parent="42" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1223" parent="42" name="NOREKGL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1224" parent="42" name="NOKREDIT">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1225" parent="42" name="JUMLAH">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1226" parent="42" name="KDTRAN">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1227" parent="42" name="JTRANSAKSI">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1228" parent="42" name="NOTRANSAKSI">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1229" parent="42" name="KETERANGAN">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="1230" parent="42" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1231" parent="42" name="TANGGAL">
+        <data-type>date</data-type>
+      </column>
+      <column id="1232" parent="42" name="REFERENSI">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1233" parent="42" name="NOREFERENSI">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1234" parent="42" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1235" parent="42" name="OTOR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1236" parent="42" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="1237" parent="42" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1238" parent="43" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1239" parent="43" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1240" parent="43" name="NONAS">
+        <data-type>varchar(6)</data-type>
+      </column>
+      <column id="1241" parent="43" name="NOREK">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1242" parent="43" name="NOREKGL">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1243" parent="43" name="NOKREDIT">
+        <data-type>varchar(13)</data-type>
+      </column>
+      <column id="1244" parent="43" name="JUMLAH">
+        <mandatory>1</mandatory>
+        <data-type>int(10)</data-type>
+        <default-expression>&apos;0&apos;</default-expression>
+      </column>
+      <column id="1245" parent="43" name="KDTRAN">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1246" parent="43" name="JTRANSAKSI">
+        <data-type>varchar(2)</data-type>
+      </column>
+      <column id="1247" parent="43" name="NOTRANSAKSI">
+        <data-type>varchar(15)</data-type>
+      </column>
+      <column id="1248" parent="43" name="KETERANGAN">
+        <data-type>varchar(70)</data-type>
+      </column>
+      <column id="1249" parent="43" name="PRODUK">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1250" parent="43" name="TANGGAL">
+        <data-type>date</data-type>
+      </column>
+      <column id="1251" parent="43" name="REFERENSI">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1252" parent="43" name="NOREFERENSI">
+        <data-type>varchar(3)</data-type>
+      </column>
+      <column id="1253" parent="43" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1254" parent="43" name="OTOR">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1255" parent="43" name="BUSSDATE">
+        <data-type>datetime</data-type>
+      </column>
+      <key id="1256" parent="43" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1257" parent="44" name="REKBANK">
+        <data-type>bigint(11)</data-type>
+      </column>
+      <column id="1258" parent="44" name="NAMA">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1259" parent="44" name="NOPEN">
+        <data-type>varchar(11)</data-type>
+      </column>
+      <column id="1260" parent="44" name="TGLAHIR">
+        <data-type>date</data-type>
+      </column>
+      <column id="1261" parent="44" name="TGTRAN">
+        <data-type>date</data-type>
+      </column>
+      <column id="1262" parent="44" name="NOMI">
+        <data-type>int(8)</data-type>
+      </column>
+      <column id="1263" parent="44" name="SALDO">
+        <data-type>int(8)</data-type>
+      </column>
+      <column id="1264" parent="44" name="MUTDEB">
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="1265" parent="44" name="MUTKRE">
+        <data-type>int(1)</data-type>
+      </column>
+      <column id="1266" parent="44" name="SALDOA">
+        <data-type>int(8)</data-type>
+      </column>
+      <column id="1267" parent="44" name="JANGKA">
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="1268" parent="44" name="SUKU">
+        <data-type>decimal(5,3)</data-type>
+      </column>
+      <column id="1269" parent="44" name="POKOK">
+        <data-type>int(7)</data-type>
+      </column>
+      <column id="1270" parent="44" name="BUNGA">
+        <data-type>int(6)</data-type>
+      </column>
+      <column id="1271" parent="44" name="ADMINISTRASI">
+        <data-type>int(4)</data-type>
+      </column>
+      <column id="1272" parent="44" name="JUMLAH">
+        <data-type>int(7)</data-type>
+      </column>
+      <column id="1273" parent="44" name="ANGSURKE">
+        <data-type>int(2)</data-type>
+      </column>
+      <column id="1274" parent="44" name="GAJI">
+        <data-type>int(7)</data-type>
+      </column>
+      <column id="1275" parent="44" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>int(11)</data-type>
+      </column>
+      <column id="1276" parent="44" name="NOKTP">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <key id="1277" parent="44" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+      <column id="1278" parent="45" name="NAMA1">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1279" parent="45" name="NAMA2">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1280" parent="45" name="NAMA3">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1281" parent="45" name="NAMA4">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1282" parent="45" name="NAMA5">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1283" parent="45" name="NAMA6">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1284" parent="45" name="NAMA7">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1285" parent="45" name="NAMA8">
+        <data-type>varchar(30)</data-type>
+      </column>
+      <column id="1286" parent="46" name="ID">
+        <mandatory>1</mandatory>
+        <data-type>smallint(6)</data-type>
+      </column>
+      <column id="1287" parent="46" name="BRANCH">
+        <data-type>varchar(4)</data-type>
+      </column>
+      <column id="1288" parent="46" name="KD">
+        <data-type>varchar(8)</data-type>
+      </column>
+      <column id="1289" parent="46" name="NMKB">
+        <data-type>varchar(40)</data-type>
+      </column>
+      <column id="1290" parent="46" name="OPER">
+        <data-type>varchar(20)</data-type>
+      </column>
+      <column id="1291" parent="46" name="BUSSDATE">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="1292" parent="46" name="PRIMARY">
+        <columns>ID</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>

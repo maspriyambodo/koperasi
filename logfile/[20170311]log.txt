@@ -1,0 +1,4 @@
+[2017-03-11:07:16:46] Action for User : KREDIT1 Masuk Ke Menu Aplikasi || IP asli : 192.168.10.204 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/prosesmasuk.php ||Referrer : http://192.168.10.250/nabasa/ ||Proxy : 192.168.10.204
+
+[2017-03-11:07:37:00] Action for User : KREDIT1 Keluar Dari Aplikasi || IP asli : 192.168.10.204 || Browser : Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36 || URL : /nabasa/check.php ||Referrer : http://192.168.10.250/nabasa/menu.php ||Proxy : 192.168.10.204
+

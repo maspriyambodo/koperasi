@@ -1,0 +1,3 @@
+<?php 
+include "h_tetap.php";$norekl=$result->c_d($_GET['norekl']);$hasil=$result->query_cari("SELECT a.norek,a.nonas,a.sufix,a.produk,a.kdkop,a.tgtran,a.nomi,a.jangka,a.suku,b.nama,a.saldoa,a.kolek,a.nopen FROM $tabel_kredit a JOIN $tabel_nasabah b ON a.nonas=b.nonas WHERE a.norek='$norekl' LIMIT 1");$row=$result->row($hasil);$norek=$row['norek'];$saldoa=$row['saldoa'];$nonas=$row['nonas'];$nama=$row['nama'];$tgtran=$row['tgtran'];$jangka=$row['jangka'];$nomi=$row['nomi'];$suku=$row['suku'];$kdkop=$row['kdkop'];$kolek=$row['kolek'];$nopen=$row['nopen'];include 'payment_scedule.php';
+?>

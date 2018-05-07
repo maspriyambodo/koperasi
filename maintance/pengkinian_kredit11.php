@@ -1,0 +1,3 @@
+<?php 
+include '../h_tetap.php';$id=$result->c_d($_POST['id']);$saldoawal=$result->c_d(keangka($_POST['saldoawal']));$mutdebet=$result->c_d(keangka($_POST['mutdebet']));$mutkredit = $result->c_d(keangka($_POST['mutkredit']));$memdebet = $result->c_d(keangka($_POST['memdebet']));$memkredit=$result->c_d(keangka($_POST['memkredit']));$saldoakhir=$result->c_d(keangka($_POST['saldoakhir']));$hasil=$result->query_y1("UPDATE kredit SET saldo='$saldoawal',mutdeb='$mutdebet',mutkre='$mutkredit',memdeb='$memdebet',memkre='$memkredit',saldoa=(saldo+mutdeb+memdeb)-(mutkre+memkre) WHERE id='$id'");echo 'Sukses Koreksi Saldo...';$result->close();$catat="Koreksi Saldo Nominatif ".$id.' Oleh '.$userid;include '../around.php';
+?>

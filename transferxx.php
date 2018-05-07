@@ -1,0 +1,60 @@
+<?php
+$resultt=$result->query_x1("SELECT branch,norek,sufix,nama,nonas,produk,angsurke,kdtran,kdkop,bulan,tanggal,SUM(if(kdtran=111,pokok,0))-SUM(if(kdtran=777,pokok,0)) as pokok,SUM(if(kdtran=111,bunga,0))-SUM(if(kdtran=777,bunga,0)) as bunga,SUM(if(kdtran=111,adm,0))-SUM(if(kdtran=777,adm,0)) as adm FROM payment  WHERE norek='$norek' GROUP BY angsurke ORDER BY angsurke");
+if($result->num($resultt)<1){ 
+	die("Data Tagihan Tidak Ada...?"); 
+}
+while($r=$result->row($resultt)){ 
+	$pokok=$r['pokok'];
+	$bunga=$r['bunga'];
+	$adm=$r['adm'];
+	$xbranch=$r['branch'];
+	$xnorek=$r['norek'];
+	$xsufix=$r['sufix'];
+	$xnonas=$r['nonas'];
+	$xproduk=$r['produk'];
+	$xangsurke=$r['angsurke'];
+	$xbulan=$r['bulan'];
+	$xnama=$r['nama'];
+	$kdkop=$r['kdkop'];
+	$tgl1=$r['tanggal'];
+	$jum_angsuran=$pokok+$bunga+$adm;
+	if($jum_angsuran>0){
+		if($ada==FALSE){
+			if($saldoas==$saldoxx){
+				$pokok=$saldoxx;
+				$bunga=$blunass;
+				$adm=$alunass;
+				$ada=TRUE;
+				$xangsurke=$jangkaxxx;
+				$total=$pokok+$bunga+$adm;
+			}else{
+				if($saldoas>=$pokok){
+					$saldoas=$saldoas-$pokok;
+				}else{
+					$pokok=$saldoas;
+					$saldoas=$saldoas-$pokok;
+				}
+				if($blunass>=$bunga){
+					$blunass=$blunass-$bunga;
+				}else{
+					$bunga=$blunass;
+					$blunass=$blunass-$bunga;
+				}
+				if($alunass>=$adm){
+					$alunass=$alunass-$adm;
+				}else{
+					$adm=$alunass;
+					$alunass=$alunass-$adm;
+				}
+				$total=$pokok+$bunga+$adm;
+			}
+			if($total>0){
+				$text5 .="('','".$xbranch."','".$xnorek."','".$xsufix."','".$xnonas."','".$xnama."','".$xproduk."','".$pokok."','".$bunga."','".$adm."','".$total."','".$t."',777,'".$xangsurke."','".$xbulan."','".$userid."',now(),31,'".$kdkop."','".$tgl1."'),";
+				$saldoa=$saldoa+$pokok;
+				$blunas=$blunas+$bunga;
+				$alunas=$alunas+$adm;
+			}
+		}
+	}
+}
+?>

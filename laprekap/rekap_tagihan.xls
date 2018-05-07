@@ -1,0 +1,200 @@
+<?php
+include '../auth.php';
+include '../koneksi.php';
+header("Content-type: application/vnd-ms-excel");
+header("Content-Disposition: attachment; filename=nomi-hari.xls");
+echo '<html>';
+echo '<head>';
+echo '<title>REKAP RENCANA TAGIHAN</title>';
+echo '</head>';
+echo '<body>';
+$ada=FALSE;
+include "../laprekap/rekaptagiq.php"; 
+$desc="REKAP REALISASI TAGIHAN BULAN : ".nmbulan($bln).' '.$thn;
+$no=1;
+?>
+<table style="border-collapse: collapse;" width="100%" border="1" align="center" cellpadding="3px" >
+<thead>
+	<tr><td colspan="22" align="center"><?php echo $desc.'<br>'.$cabang;?></td></tr>
+	<tr>
+		<th rowspan="3">NO</th>
+		<th rowspan="3">KANTOR BAYAR</th>
+		<th colspan="5">RENCANA TAGIHAN</th>
+		<th colspan="10">REALISASI TAGIHAN</th>
+		<th colspan="5">TIDAK TERTAGIH</th>
+	</tr>
+	<tr>
+		<th rowspan="2">POKOK</th>
+		<th rowspan="2">BUNGA</th>
+		<th rowspan="2">ADM</th>
+		<th rowspan="2">JUMLAH</th>
+		<th rowspan="2">REK</th>
+		<th colspan="5">REALISASI</th>
+		<th colspan="5">SETORAN</th>
+		<th rowspan="2">POKOK</th>
+		<th rowspan="2">BUNGA</th>
+		<th rowspan="2">ADM</th>
+		<th rowspan="2">JUMLAH</th>
+		<th rowspan="2">REK</th>
+	</tr>
+	<tr>
+		<th>POKOK</th>
+		<th>BUNGA</th>
+		<th>ADM</th>
+		<th>JUMLAH</th>
+		<th>REK</th>
+		<th>POKOK</th>
+		<th>BUNGA</th>
+		<th>ADM</th>
+		<th>JUMLAH</th>
+		<th>REK</th>
+	</tr>
+</thead>
+<tbody><?php
+	$no=1;$vbayar="";
+	$jpokok=0;$jbunga=0;$jadm=0;$jumlah1=0;$jorg1=0;
+	$rpokok1=0;$rbunga1=0;$radm1=0;$jumlah2=0;$jorg2=0;
+	$rpokok2=0;$rbunga2=0;$radm2=0;$jumlah3=0;$jorg3=0;
+	$tpokok=0;$tbunga=0;$tadm=0;$jumlah4=0;$jorg4=0;
+	
+	$tjpokok=0;$tjbunga=0;$tjadm=0;$tjumlah1=0;$tjorg1=0;
+	$trpokok1=0;$trbunga1=0;$tradm1=0;$tjumlah2=0;$tjorg2=0;
+	$trpokok2=0;$trbunga2=0;$tradm2=0;$tjumlah3=0;$tjorg3=0;
+	$ttpokok=0;$ttbunga=0;$ttadm=0;$tjumlah4=0;$tjorg4=0;
+	
+	while ($row = $result->fetch_array(MYSQLI_BOTH)) {
+		$kdkop=$row['kdkop'];
+		include '../help/kettagih.php';
+		if ($vbayar!=$row['produk']){ 
+			if($no>1){?>
+				<tr>
+					<td colspan="2" align="center">JUMLAH</td>
+					<td align="right"><?php echo $jpokok; ?></td>
+					<td align="right"><?php echo $jbunga; ?></td>
+					<td align="right"><?php echo $jadm;?></td>
+					<td align="right"><?php echo $jumlah1;?></td>
+					<td align="right"><?php echo $jorg1;?></td>
+					<td align="right"><?php echo $rpokok1;?></td>
+					<td align="right"><?php echo $rbunga1;?></td>
+					<td align="right"><?php echo $radm1;?></td>
+					<td align="right"><?php echo $jumlah2;?></td>
+					<td align="right"><?php echo $jorg2;?></td>
+					<td align="right"><?php echo $rpokok2;?></td>
+					<td align="right"><?php echo $rbunga2;?></td>
+					<td align="right"><?php echo $radm2;?></td>
+					<td align="right"><?php echo $jumlah3;?></td>
+					<td align="right"><?php echo $jorg3;?></td>
+					<td align="right"><?php echo $tpokok;?></td>
+					<td align="right"><?php echo $tbunga;?></td>
+					<td align="right"><?php echo $tadm;?></td>
+					<td align="right"><?php echo $jumlah4;?></td>
+					<td align="right"><?php echo $jorg4;?></td>
+					<?php
+					$jpokok=0;$jbunga=0;$jadm=0;$jumlah1=0;$jorg1=0;$rpokok1=0;$rbunga1=0;$radm1=0;$jumlah2=0;$jorg2=0;$rpokok2=0;$rbunga2=0;$radm2=0;
+					$jumlah3=0;$jorg3=0;$tpokok=0;$tbunga=0;$tadm=0;$jumlah4=0;$jorg4=0;
+					?>
+				</tr><?php
+			}?>
+			<tr>
+				<td colspan="22"><strong><?php echo $row['nmproduk']; ?></strong></td>
+			</tr>
+			<?php
+		}
+		?>
+		<tr>
+			<td ><?php echo $no; ?></td>
+			<td align="left"><?php echo $row['nmbayar']; ?></td>
+			<td align="right"><?php echo $row['jpokok'];?></td>
+			<td align="right"><?php echo $row['jbunga'];?></td>
+			<td align="right"><?php echo $row['jadm'];?></td>
+			<td align="right"><?php echo $row['jumlah1'];?></td>
+			<td align="right"><?php echo $row['org1'];?></td>
+			<td align="right"><?php echo $row['rpokok1'];?></td>
+			<td align="right"><?php echo $row['rbunga1'];?></td>
+			<td align="right"><?php echo $row['radm1'];?></td>
+			<td align="right"><?php echo $row['jumlah2'];?></td>
+			<td align="right"><?php echo $row['org2'];?></td>
+			<td align="right"><?php echo $row['rpokok2'];?></td>
+			<td align="right"><?php echo $row['rbunga2'];?></td>
+			<td align="right"><?php echo $row['radm2'];?></td>
+			<td align="right"><?php echo $row['jumlah3'];?></td>
+			<td align="right"><?php echo $row['org3'];?></td>
+			<td align="right"><?php echo $row['tpokok'];?></td>
+			<td align="right"><?php echo $row['tbunga'];?></td>
+			<td align="right"><?php echo $row['tadm'];?></td>
+			<td align="right"><?php echo $row['jumlah4'];?></td>
+			<td align="right"><?php echo $row['org4'];?></td>
+		</tr><?php 
+		$jpokok=$jpokok+$row['jpokok'];$jbunga=$jbunga+$row['jbunga'];$jadm=$jadm+$row['jadm'];
+		$jumlah1=$jumlah1+$row['jumlah1'];$jorg1=$jorg1+$row['org1'];
+		$rpokok1=$rpokok1+$row['rpokok1'];$rbunga1=$rbunga1+$row['rbunga1'];$radm1=$radm1+$row['radm1'];
+		$jumlah2=$jumlah2+$row['jumlah2'];$jorg2=$jorg2+$row['org2'];
+		$rpokok2=$rpokok2+$row['rpokok2'];$rbunga2=$rbunga2+$row['rbunga2'];$radm2=$radm2+$row['radm2'];
+		$jumlah3=$jumlah3+$row['jumlah3'];$jorg3=$jorg3+$row['org3'];
+		$tpokok=$tpokok+$row['tpokok'];$tbunga=$tbunga+$row['tbunga'];$tadm=$tadm+$row['tadm'];
+		$jumlah4=$jumlah4+$row['jumlah4'];$jorg4=$jorg4+$row['org4'];
+		
+		
+		$tjpokok=$tjpokok+$row['jpokok'];$tjbunga=$tjbunga+$row['jbunga'];$tjadm=$tjadm+$row['jadm'];
+		$tjumlah1=$tjumlah1+$row['jumlah1'];$tjorg1=$tjorg1+$row['org1'];
+		$ttpokok=$ttpokok+$row['tpokok'];$ttbunga=$ttbunga+$row['tbunga'];$ttadm=$ttadm+$row['tadm'];
+		$tjumlah4=$tjumlah4+$row['jumlah4'];$tjorg4=$tjorg4+$row['org4'];
+		$trpokok1=$trpokok1+$row['rpokok1'];$trbunga1=$trbunga1+$row['rbunga1'];$tradm1=$tradm1+$row['radm1'];
+		$tjumlah2=$tjumlah2+$row['jumlah2'];$tjorg2=$tjorg2+$row['org2'];
+		$trpokok2=$trpokok2+$row['rpokok2'];$trbunga2=$trbunga2+$row['rbunga2'];$tradm2=$tradm2+$row['radm2'];
+		$tjumlah3=$tjumlah3+$row['jumlah3'];$tjorg3=$tjorg3+$row['org3'];
+		$vbayar=$row['produk'];
+		$no++;
+	}?>
+	<tr>
+		<td colspan="2" align="center">JUMLAH</td>
+		<td align="right"><?php echo $jpokok; ?></td>
+		<td align="right"><?php echo $jbunga; ?></td>
+		<td align="right"><?php echo $jadm;?></td>
+		<td align="right"><?php echo $jumlah1;?></td>
+		<td align="right"><?php echo $jorg1;?></td>
+		<td align="right"><?php echo $rpokok1;?></td>
+		<td align="right"><?php echo $rbunga1;?></td>
+		<td align="right"><?php echo $radm1;?></td>
+		<td align="right"><?php echo $jumlah2;?></td>
+		<td align="right"><?php echo $jorg2;?></td>
+		<td align="right"><?php echo $rpokok2;?></td>
+		<td align="right"><?php echo $rbunga2;?></td>
+		<td align="right"><?php echo $radm2;?></td>
+		<td align="right"><?php echo $jumlah3;?></td>
+		<td align="right"><?php echo $jorg3;?></td>
+		<td align="right"><?php echo $tpokok;?></td>
+		<td align="right"><?php echo $tbunga;?></td>
+		<td align="right"><?php echo $tadm;?></td>
+		<td align="right"><?php echo $jumlah4;?></td>
+		<td align="right"><?php echo $jorg4;?></td>
+	</tr>
+	<tr>
+		<td class="items" colspan="2" align="center">TOTAL</td>
+		<td align="right"><?php echo $tjpokok; ?></td>
+		<td align="right"><?php echo $tjbunga; ?></td>
+		<td align="right"><?php echo $tjadm;?></td>
+		<td align="right"><?php echo $tjumlah1;?></td>
+		<td align="right"><?php echo $tjorg1;?></td>
+		<td align="right"><?php echo $trpokok1;?></td>
+		<td align="right"><?php echo $trbunga1;?></td>
+		<td align="right"><?php echo $tradm1;?></td>
+		<td align="right"><?php echo $tjumlah2;?></td>
+		<td align="right"><?php echo $tjorg2;?></td>
+		<td align="right"><?php echo $trpokok2;?></td>
+		<td align="right"><?php echo $trbunga2;?></td>
+		<td align="right"><?php echo $tradm2;?></td>
+		<td align="right"><?php echo $tjumlah3;?></td>
+		<td align="right"><?php echo $tjorg3;?></td>
+		<td align="right"><?php echo $ttpokok;?></td>
+		<td align="right"><?php echo $ttbunga;?></td>
+		<td align="right"><?php echo $ttadm;?></td>
+		<td align="right"><?php echo $tjumlah4;?></td>
+		<td align="right"><?php echo $tjorg4;?></td>
+	</tr>
+</tbody>
+</table>
+<?php
+echo '</body>';
+echo '</html>';
+?>

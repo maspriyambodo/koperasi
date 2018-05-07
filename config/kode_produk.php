@@ -1,0 +1,3 @@
+<?php
+$hasil=$result->query_y1("SELECT kdproduk,nmproduk FROM nabasa.debit1 ORDER BY kdproduk");if($result->num($hasil)<1) echo 'Tabel Kode Produk Masih Kosong!!';echo '<select name="produk" id="produk"><option value="">PILIHAN</option>';while($data = $result->row($hasil)){if($row['produk']==$data['kdproduk']){echo "<option value=\"" .$data['kdproduk']."\" selected>" .$data['kdproduk'].' '.$data['nmproduk']. "</option>";}else{echo "<option value=\"".$data['kdproduk']."\">".$data['kdproduk'].' '.$data['nmproduk']."</option>";}}echo '</select>';
+?>

@@ -1,0 +1,3 @@
+<?php 
+$hasil=$result->query_y1("SELECT branch,idsales,nama FROM nabasa.sales WHERE branch='$branch' ORDER BY nama");if($result->num($hasil)<1)echo 'Tabel Kode Sales Masih Kosong!!';echo '<select name="kdsales" id="kdsales" class="combobox"><option value="">PILIHAN</option>';while($data = $result->row($hasil)){if($row['kdsales'] == $data['idsales']){echo "<option value=\"" . $data['idsales'] . "\" selected>" .$data['idsales'].' - '.$data['nama'] . "</option>";}else{echo "<option value=\"".$data['idsales']."\">" .$data['idsales'].' - '.$data['nama']."</option>";}}echo '</select>'
+?>

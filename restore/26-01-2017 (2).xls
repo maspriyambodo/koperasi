@@ -1,0 +1,532 @@
+<html><head><title>PRINT XLS</title></head><body><table width="100%" class="table" style="font-family: Arial; font-size: 9pt;"><tr><td colspan="9" align="center">RINCIAN MUTASI REKENING GSSL : - GIRO BANK BTPN BULAN Januari 2017</td></tr><thead>
+<tr style="border: 1" bgcolor="#e5e5e5">
+	<th rowspan="2">NO</th>
+	<th rowspan="2">REKENING</th>
+	<th rowspan="2">URAIAN</th>
+	<th rowspan="2">TANGGAL</th>
+	<th colspan="2">MUTASI KAS</th>
+	<th colspan="2">MUTASI MEMORIAL</th>
+	<th rowspan="2">SALDO AKHIR</th>
+</tr>
+<tr class="td" bgcolor="#e5e5e5">
+	<th>DEBET</th>
+	<th>KREDIT</th>
+	<th>DEBET</th>
+	<th>KREDIT</th>
+</tr>
+</thead>
+<tbody>
+	<tr><td align="left" colspan="8">SALDO AWAL</td><td align="right">343.423.588</td></tr><tr><td>1</td>
+		<td>0061102102360</td>
+		<td>TAGIHAN KCP MAROS</td>
+		<td align="right">03-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">5.103.000</td>
+		<td align="right">0</td>
+		<td align="right">348.526.588</td></tr><tr><td>2</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL FRANFKY H.SUMAMPOUW - 0061030616011</td>
+		<td align="right">03-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">349.660.588</td></tr><tr><td>3</td>
+		<td>0061102102360</td>
+		<td>TAGIHAN KCP TAHUNA</td>
+		<td align="right">03-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.968.000</td>
+		<td align="right">0</td>
+		<td align="right">351.628.588</td></tr><tr><td>4</td>
+		<td>0061102102360</td>
+		<td>TAGIHAN KCP GORONTALO</td>
+		<td align="right">03-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">69.117.000</td>
+		<td align="right">0</td>
+		<td align="right">420.745.588</td></tr><tr><td>5</td>
+		<td>0061102102360</td>
+		<td>UANG MUKA OPERASIONAL KREDIT</td>
+		<td align="right">04-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">100.000.000</td>
+		<td align="right">320.745.588</td></tr><tr><td>6</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT DIENCE K MANDEY - 0061050117001</td>
+		<td align="right">05-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">6.868.000</td>
+		<td align="right">313.877.588</td></tr><tr><td>7</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT MONNE - 0061050117002</td>
+		<td align="right">05-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">7.728.000</td>
+		<td align="right">306.149.588</td></tr><tr><td>8</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT S HAMID - 0061050117003</td>
+		<td align="right">05-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">4.288.000</td>
+		<td align="right">301.861.588</td></tr><tr><td>9</td>
+		<td>0061102102360</td>
+		<td>PENGEMBALIAN ANGSURAN AN ROMBON ANNA</td>
+		<td align="right">06-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.009.000</td>
+		<td align="right">300.852.588</td></tr><tr><td>10</td>
+		<td>0061102102360</td>
+		<td>UANG MUKA</td>
+		<td align="right">06-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">100.000.000</td>
+		<td align="right">200.852.588</td></tr><tr><td>11</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL STEVA PATRICIA CHANDRA CIUYANTO  - 006122041</td>
+		<td align="right">09-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.284.000</td>
+		<td align="right">0</td>
+		<td align="right">202.136.588</td></tr><tr><td>12</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT CHAERAN DENSU  - 0061090117004</td>
+		<td align="right">09-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">10.308.000</td>
+		<td align="right">191.828.588</td></tr><tr><td>13</td>
+		<td>0061102102360</td>
+		<td>BB DEPOSITO SRI SOEPARWATI</td>
+		<td align="right">09-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">7.643.836</td>
+		<td align="right">184.184.752</td></tr><tr><td>14</td>
+		<td>0061102102360</td>
+		<td>TAMBAHAN UANG MUKA</td>
+		<td align="right">09-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">100.000.000</td>
+		<td align="right">84.184.752</td></tr><tr><td>15</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP TOMOHON</td>
+		<td align="right">10-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">110.418.000</td>
+		<td align="right">0</td>
+		<td align="right">194.602.752</td></tr><tr><td>16</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KC MANADO</td>
+		<td align="right">10-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">354.271.000</td>
+		<td align="right">0</td>
+		<td align="right">548.873.752</td></tr><tr><td>17</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KC MANADO</td>
+		<td align="right">10-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">15.427.000</td>
+		<td align="right">0</td>
+		<td align="right">564.300.752</td></tr><tr><td>18</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL SURYANI S DJAFAR SE - 0061010716005</td>
+		<td align="right">11-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">565.434.752</td></tr><tr><td>19</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL SURYANI S DJAFAR SE - 0061010716005</td>
+		<td align="right">11-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">566.568.752</td></tr><tr><td>20</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP SUNGGUMINASA</td>
+		<td align="right">12-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">9.739.000</td>
+		<td align="right">0</td>
+		<td align="right">576.307.752</td></tr><tr><td>21</td>
+		<td>0061102102360</td>
+		<td>TAMBAHAN UANG MUKA</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">100.000.000</td>
+		<td align="right">476.307.752</td></tr><tr><td>22</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT DATULOLO KARIM - 0061130117005</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">21.488.000</td>
+		<td align="right">454.819.752</td></tr><tr><td>23</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT NURDIN MOHAMAD AMRAIN - 0061130117031</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">11.598.000</td>
+		<td align="right">443.221.752</td></tr><tr><td>24</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP BITUNG</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">42.258.000</td>
+		<td align="right">0</td>
+		<td align="right">485.479.752</td></tr><tr><td>25</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP BITUNG</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">24.317.000</td>
+		<td align="right">0</td>
+		<td align="right">509.796.752</td></tr><tr><td>26</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KC BAWAKARAENG</td>
+		<td align="right">13-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">37.370.000</td>
+		<td align="right">0</td>
+		<td align="right">547.166.752</td></tr><tr><td>27</td>
+		<td>0061102102360</td>
+		<td>TAMBAHAN UANG MUKA</td>
+		<td align="right">16-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">60.000.000</td>
+		<td align="right">487.166.752</td></tr><tr><td>28</td>
+		<td>0061102102360</td>
+		<td>TAMBAHAN UANG MUKA</td>
+		<td align="right">17-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">109.779.626</td>
+		<td align="right">377.387.126</td></tr><tr><td>29</td>
+		<td>0061102102360</td>
+		<td>REALISASI KCP POLEWALI</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">5.245.000</td>
+		<td align="right">0</td>
+		<td align="right">382.632.126</td></tr><tr><td>30</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP BANTAENG</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">464.000</td>
+		<td align="right">0</td>
+		<td align="right">383.096.126</td></tr><tr><td>31</td>
+		<td>0061102102360</td>
+		<td>RETUS TASPEN AN JULIANA PUNGUS</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">741.000</td>
+		<td align="right">382.355.126</td></tr><tr><td>32</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN PARE PARE</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">9.409.000</td>
+		<td align="right">0</td>
+		<td align="right">391.764.126</td></tr><tr><td>33</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN BTPN PALU</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.040.000</td>
+		<td align="right">0</td>
+		<td align="right">392.804.126</td></tr><tr><td>34</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP MAJENE</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3.073.000</td>
+		<td align="right">0</td>
+		<td align="right">395.877.126</td></tr><tr><td>35</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN KCP KOTAMOBAGU</td>
+		<td align="right">18-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">2.400.000</td>
+		<td align="right">0</td>
+		<td align="right">398.277.126</td></tr><tr><td>36</td>
+		<td>0061102102360</td>
+		<td>NET DITERIMA PINJAMAN KREDIT RIRIS DAMERIA SIHOMBING - 0061230117917</td>
+		<td align="right">23-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">100.000.000</td>
+		<td align="right">298.277.126</td></tr><tr><td>37</td>
+		<td>0061102102360</td>
+		<td>BIAYA ADM GIRO TRANSFER NOMINAL LEBIH DAR 100 JUTA</td>
+		<td align="right">23-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.000</td>
+		<td align="right">298.276.126</td></tr><tr><td>38</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL INGGRIT CAROLINA RUAUW - 0061220416026</td>
+		<td align="right">24-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.284.000</td>
+		<td align="right">0</td>
+		<td align="right">299.560.126</td></tr><tr><td>39</td>
+		<td>0061102102360</td>
+		<td>REALISASI BTPN SIDRAP</td>
+		<td align="right">24-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3.062.000</td>
+		<td align="right">0</td>
+		<td align="right">302.622.126</td></tr><tr><td>40</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL DIANE RUMAWAS  - 0061220416020</td>
+		<td align="right">24-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.284.000</td>
+		<td align="right">0</td>
+		<td align="right">303.906.126</td></tr><tr><td>41</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN ARIEF RATE</td>
+		<td align="right">24-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">5.584.000</td>
+		<td align="right">0</td>
+		<td align="right">309.490.126</td></tr><tr><td>42</td>
+		<td>0061102102360</td>
+		<td>BY KOMISI GIRO</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">30.000</td>
+		<td align="right">309.460.126</td></tr><tr><td>43</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL DIANE CHRISTINE RUNTUNG - 0061220716037</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">310.594.126</td></tr><tr><td>44</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL SHERNY NANCY ROZANNE TONGKELES  - 0061231116059</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.133.000</td>
+		<td align="right">0</td>
+		<td align="right">311.727.126</td></tr><tr><td>45</td>
+		<td>0061102102360</td>
+		<td>REALISASI TAGIHAN JENEPONTO</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">347.000</td>
+		<td align="right">0</td>
+		<td align="right">312.074.126</td></tr><tr><td>46</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL HERBERT L. TOBING  - 0061091216004</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.360.000</td>
+		<td align="right">0</td>
+		<td align="right">313.434.126</td></tr><tr><td>47</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL ST SOHRA DG PUJI  - 0061220416221</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">300.000</td>
+		<td align="right">0</td>
+		<td align="right">313.734.126</td></tr><tr><td>48</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL FRISKA NENCY TIOLEMBA - 0061220416025</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">314.868.126</td></tr><tr><td>49</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL RALDO CAESAR,SP - 0061220816068</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.369.000</td>
+		<td align="right">0</td>
+		<td align="right">316.237.126</td></tr><tr><td>50</td>
+		<td>0061102102360</td>
+		<td>BUNGA GIRO</td>
+		<td align="right">25-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">642.002</td>
+		<td align="right">0</td>
+		<td align="right">316.879.128</td></tr><tr><td>51</td>
+		<td>0061102102360</td>
+		<td>BY PAJAK GIRO</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">128.400</td>
+		<td align="right">316.750.728</td></tr><tr><td>52</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL CAROLINA ROULI HUTAPEA - 0061150816074</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.020.000</td>
+		<td align="right">0</td>
+		<td align="right">317.770.728</td></tr><tr><td>53</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL HENNY FITRIANY - 0061231116003</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">650.000</td>
+		<td align="right">0</td>
+		<td align="right">318.420.728</td></tr><tr><td>54</td>
+		<td>0061102102360</td>
+		<td>TAMBAHAN UANG MUKA</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">159.779.626</td>
+		<td align="right">158.641.102</td></tr><tr><td>55</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL YUDHA HARYANTO GANTA - 0061220416023</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.247.000</td>
+		<td align="right">0</td>
+		<td align="right">159.888.102</td></tr><tr><td>56</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL YUDHA HARYANTO GANTA - 0061220416023</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">3.000</td>
+		<td align="right">0</td>
+		<td align="right">159.891.102</td></tr><tr><td>57</td>
+		<td>0061102102360</td>
+		<td>BIAYA TRANSFER</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">5.000</td>
+		<td align="right">159.886.102</td></tr><tr><td>58</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL LARRY BENEDICTO MARZAN - 0061211116058</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">726.667</td>
+		<td align="right">0</td>
+		<td align="right">160.612.769</td></tr><tr><td>59</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL SUSAN S SAMPANGAI  - 0061220416014</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.133.500</td>
+		<td align="right">0</td>
+		<td align="right">161.746.269</td></tr><tr><td>60</td>
+		<td>0061102102360</td>
+		<td>REALISASI ANGSURAN MANUAL AGNES MAMANGKEY - 0061210916076</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">567.000</td>
+		<td align="right">0</td>
+		<td align="right">162.313.269</td></tr><tr><td>61</td>
+		<td>0061102102360</td>
+		<td>TITIPAN ANGSURAN BULAN FEBRUARI AN FRANGKY SUMAMPOUW</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.134.000</td>
+		<td align="right">0</td>
+		<td align="right">163.447.269</td></tr><tr><td>62</td>
+		<td>0061102102360</td>
+		<td>SETORAN MEMORIAL RICKA FIONINA FRANSISCA - 0061220416027</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">1.200.000</td>
+		<td align="right">0</td>
+		<td align="right">164.647.269</td></tr><tr><td>63</td>
+		<td>0061102102360</td>
+		<td>BIAYA METERAI GIRO</td>
+		<td align="right">26-01-2017</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">6.000</td>
+		<td align="right">164.641.269</td></tr>	 <tr class="td" bgcolor="#e5e5e5">
+		<td colspan="4" align="center">JUMLAH </td>
+		<td align="right">0</td>
+		<td align="right">0</td>
+		<td align="right">722.619.169</td>
+		<td align="right">901.401.488</td>
+		<td align="right">&nbsp;</td>
+	</tr>
+</tbody>
+</table></body></html>

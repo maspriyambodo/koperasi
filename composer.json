@@ -1,0 +1,12 @@
+{
+  "name": "nabasa/nabasa",
+  "description": "Aplikasi Koperasi",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Frangky Sumampouw",
+      "email": "angky.fs@gmail.com"
+    }
+  ]
+}
